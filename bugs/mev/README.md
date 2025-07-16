@@ -4,7 +4,7 @@
 
 ### Fomo3D Block-Stuffing Attack (August 2018)
 
-- **Loss**: ~10,469 ETH (~$3 million at the time) [[1]](https://hackernoon.com/the-anatomy-of-a-block-stuffing-attack-a488698732ae)
+- **Loss**: Around 10,469 ETH (~$3 million at the time) [[1]](https://hackernoon.com/the-anatomy-of-a-block-stuffing-attack-a488698732ae)
 - **Method**: Attacker deployed a gas-burning contract to fill 17 consecutive Ethereum blocks (~175 s), preventing any other "key" purchases and ensuring they were the last player when the game's 24 h timer expired.
 - **Connection**: Demonstrates how block stuffing can censor competing transactions in a time-boxed auction/game, identical to manipulating ECG auctions by preventing bids until the most profitable window.
 
