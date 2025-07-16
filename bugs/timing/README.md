@@ -1,4 +1,4 @@
-# Timing Vulnerability
+# Timing / Oracle Manipulation
 
 ## Major Real-World Incidents Involving Similar Vulnerabilities
 
