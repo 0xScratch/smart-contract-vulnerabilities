@@ -156,7 +156,7 @@
 >
 >Consider multiplying the numerator variables first and then divide by the denominator:
 >
->```logs
+>```diff
 >  function calculateAge(uint256 tokenId) public view returns (uint256) {
 >    require(nftContract.ownerOf(tokenId) != address(0), 'Token does not exist');
 >

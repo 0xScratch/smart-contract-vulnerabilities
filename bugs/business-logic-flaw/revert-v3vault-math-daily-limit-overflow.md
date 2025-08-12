@@ -75,7 +75,7 @@
 >
 >Fix is simple for `_resetDailyLendIncreaseLimit()`
 >
->```solidity
+>```diff
 >    uint256 lendIncreaseLimit = _convertToAssets(totalSupply(), newLendExchangeRateX96, Math.Rounding.Up)
 >-                * (Q32 + MAX_DAILY_LEND_INCREASE_X32) / Q32;
 >+                * MAX_DAILY_LEND_INCREASE_X32 / Q32;
@@ -83,7 +83,7 @@
 >
 >and for _resetDailyDebtIncreaseLimit()
 >
->```solidity
+>```diff
 >   uint256 debtIncreaseLimit = _convertToAssets(totalSupply(), newLendExchangeRateX96, Math.Rounding.Up)
 >-                * (Q32 + MAX_DAILY_DEBT_INCREASE_X32) / Q32;
 >+                * MAX_DAILY_DEBT_INCREASE_X32 / Q32;

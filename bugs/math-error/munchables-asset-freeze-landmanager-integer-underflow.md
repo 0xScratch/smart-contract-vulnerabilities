@@ -67,7 +67,7 @@
 >
 >Add the following lines of code in `tests/managers/LandManager/unstakeMunchable.test.ts`:
 >
->```typescript
+>```diff
 >.
 >.
 >.
@@ -112,7 +112,7 @@
 >
 >`finalBonus` is meant as a percentage change in the Schnibbles earned by a Munchable. Change the calculation of `schnibblesTotal` in `_farmPlots()` to reflect that by removing the brackets:
 >
->```solidity
+>```diff
 >schnibblesTotal =
 >        (timestamp - _toiler.lastToilDate) *
 >        BASE_SCHNIBBLE_RATE;
