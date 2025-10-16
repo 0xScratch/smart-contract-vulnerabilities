@@ -1,4 +1,4 @@
-# Denial of Service via Rounding Edge Case in WstEth.withdraw
+# Denial of Service via Rounding Edge Case in `WstEth.withdraw`
 
 - **Severity**: Medium
 - **Source**: [Code4rena](https://github.com/code-423n4/2023-05-asymmetry-mitigation-findings/issues/70) / [One Bug Per Day](https://www.onebugperday.com/v1/89)

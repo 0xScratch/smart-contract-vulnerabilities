@@ -1,4 +1,4 @@
-# Dutch Auctions Can Fail to Settle Due to Silent Error Handling in BackingManager
+# Dutch Auctions Can Fail to Settle Due to Silent Error Handling in `BackingManager`
 
 * **Severity**: Medium
 * **Source**: [Code4rena](https://github.com/code-423n4/2024-07-reserve-findings/issues/32) / [One Bug Per Day](https://www.onebugperday.com/v1/1437)

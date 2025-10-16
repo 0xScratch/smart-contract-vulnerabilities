@@ -1,4 +1,4 @@
-# Incorrect Account Assignment in Token Burning Logic in EVMAuthExpiringERC1155
+# Incorrect Account Assignment in Token Burning Logic in `EVMAuthExpiringERC1155`
 
 * **Severity**: High
 * **Source**: [Trail of Bits Audit Report - Radius Technology EVMAuth](https://github.com/trailofbits/publications/blob/master/reviews/2025-10-radiustechnology-evmauth-securityreview.pdf)
