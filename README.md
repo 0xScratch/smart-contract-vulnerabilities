@@ -53,3 +53,45 @@
 |   Revolution Protocol |   [Auction Settlement DoS via Malicious Multi-Creator Setup in Revolution Protocol](/bugs/denial-of-service/revolution-auctionhouse-multicreator-dos.md)  |   Medium  |   Code4rena   |
 |   Revolution Protocol |   [DoS via Gas-Intensive NFT Minting Failing AuctionHouse's Auction Creation](/bugs/denial-of-service/revolution-protocol-auctionhouse-gas-intensive-nft-minting.md)  |   Medium  |   Code4rena   |
 |   Taiko   |   [Denial of Service via Permissioned Genesis Block](/bugs/denial-of-service/taiko-permissioned-genesis-block-dos.md) |   Medium  |   Code4rena   |
+
+## Front Running/MEV
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   Nuts Finance    |   [Initial Mint Front‑Run Inflation Attack — SelfPeggingAsset (Tapio / NUTS Finance)](/bugs/front-running/nutsfinance-initial-mint-front-run-inflation-attack-selfpeggingasset.md)    |   Critical    |   Tapio Security Audit Report |
+|   Ethereum Credit Guild |   [Auction manipulation by block stuffing and reverting on ERC-777 hooks](/bugs/mev/ethcreditguild-auction-block-stuffing.md) |   Medium  |   Code4rena   |
+|   Loop Vaults |   [Incorrect Vesting Interest Calculation Enables MEV Exploitation](/bugs/mev/loop-vaults-incorrect-vesting-interest-mev.md)  |   High    |   Pashov Audit Group  |
+
+## Governance
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   Ethereum Credit Guild   |   [Cheap Governance Manipulation via PSM Unlimited Minting](/bugs/governance/ethereumcreditguild-psm-governance-veto.md)  |   Medium  |   Code4rena   |
+|   Salty   |   [Vote Inflation via SALT Recycling in Proposals.sol](/bugs/governance/salty-ballot-vote-recycling.md)   |   Medium  |   Code4rena   |
+
+## Insecure Randomness
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   AI Arena    |   [NFT Attribute Manipulation via onERC721Received Hook Revert](/bugs/insecure-randomness/ai-arena-fighter-farm-revert-to-reroll.md)  |   Medium  |   Code4rena   |
+
+## Invalid Validation
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   Angle   |   [Invalid Input Validation Leading to Slippage/Token Order Mismatch](/bugs/invalid-validation/angle-transmuter-redeem-token-order-slippage-mismatch.md)  |   Medium  |   Code4rena   |
+|   Livepeer Protocol   |   [Incorrect Vote Deduction in Livepeer Governance System](/bugs/invalid-validation/livepeer-governor-vote-miscount-delegate-bypass.md)   |   High    |   Code4rena   |
+|   Maia    |   [Cross‑chain DepositNonce Poisoning — `retrieveDeposit()` allows arbitrary nonces to be marked executed](/bugs/invalid-validation/maia-branchbridgeagent-retrievedeposit-depositnonce-poisoning.md) |   High    |   Code4rena   |
+|   Nextgen |   [Double Royalty Payout Due to Faulty Split Logic in NextGen Minter Contract](/bugs/invalid-validation/nextgen-minter-splits-bypass.md)  |   Medium  |   Code4rena   |
+|   Panoptic    |   [Duplicate TokenId fingerprint collision → solvency bypass in `PanopticPool.sol`](/bugs/invalid-validation/panoptic-collateral-accounting-position-duplication-insolvency-bypass.md)    |   Medium  |   Code4rena   |
+|   Venus   |   [Fragile Liquidation Check in `Comptroller.sol` — Zero Borrow Balance Requirement](/bugs/invalid-validation/venus-comptroller-liquidation-zero-balance.md)  |   Medium  |   Code4rena   |
+
+## Math / Arithmetic Errors
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   Munchables  |   [Asset Freezing via Flawed Reward Penalty Calculation in LandManager](/bugs/math-error/munchables-asset-freeze-landmanager-integer-underflow.md)    |   High    |   Code4rena   |
+|   Ostium  |   [Wrong Collateral Refund in Liquidation (`liqPrice == priceAfterImpact`)](/bugs/math-error/ostium-liquidation-wrong-collateral-refund.md)   |   Medium  |   Pashov Audit Group  |
+|   Size    |   [Liquidation Profit Underflow via Decimal Mismatch in Collateral-Debt Conversion](/bugs/math-error/size-liquidation-decimal-mismatch.md)    |   High    |   Code4rena   |
+|   Terplayer   |   [Withdrawal Underflow via Self-Delegation and Ceiling Division in BVT Reward Vault](/bugs/math-error/terplayer-rewardvault-withdraw-underflow-lock.md)  |   Critical    |   Shieldify Audits    |
+|   Traitforge  |   [Age Underestimation Due to Early Integer Division in `calculateAge()`](/bugs/math-error/traitforge-game-mechanics-entropy-age-nuke.md) |   Medium  |   Code4rena   |
