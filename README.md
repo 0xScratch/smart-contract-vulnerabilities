@@ -113,3 +113,19 @@
 |   Frankencoin |   [Inaccurate Holding Duration on Optimism Due to `block.number` Usage in `Equity.sol`](/bugs/timing/frankencoin-equity-blocknumber-time-bug.md)    |   Medium  |   Code4rena   |
 |   Karak   |   [Unfair Withdrawal Slashing During Veto Window in Karak Vaults](/bugs/timing/karak-withdraw-slash-mismatch.md)  |   Medium  |   Code4rena   |
 |   Verwa   |   [Permanent Lock via Expired-Lock Undelegation Restriction in VotingEscrow](/bugs/timing/verwa-permanent-lock-expired-undelegation.md)   |   High    |   Code4rena   |
+
+## Others
+
+|   Protocol    |   Vulnerability   |   Type    |   Severity  | Source  |
+|---------------|-------------------|---------------|-----------|-----------|
+|   Arbitrum    |   [Signature Replay in Split-Voting Governor Elections](/bugs/other/arbitrum-signature-replay-in-governor-split-voting.md)    |   Signature Replay / Missing Nonce / Authorization Bypass |   High    |   Code4rena   |
+|   Cap |   [Missing Slippage Protection in Liquidation Allows Unexpected Collateral Loss](/bugs/other/cap-missing-slippage-protection.md)  |   Missing Slippage Protection / Value Mismatch in Liquidation |   Medium  |   Sherlock    |
+|   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/other/goodentry-v3proxy-unchecked-call-return-value.md)    |   call/delegatecall - Unchecked Return Value  |   Medium  |   Code4rena   |
+|   Stader  |   [Consensus Stall via Strict Equality in StaderOracle Submissions](/bugs/other/stader-oracle-consensus-stall.md) |   Logic Error / Consensus Liveness Failure    |   Medium  |   Code4rena|
+
+## Case Studies
+
+|   Protocol    |   Vulnerability   |   Type    |   Severity  | Source  |
+|---------------|-------------------|---------------|-----------|-----------|
+|   Curve   |   [Curve LP Oracle Manipulation via Read-Only Reentrancy](/case-studies/curve-readonly-reentrancy-oracle-manipulation.md) |   Oracle Manipulation / Read-Only Reentrancy  |   High    |   ChainSecurity   |
+|   Sushi (Miso)    |   [ETH Double-Spend & Refund Exploit via BoringBatchable in MISO Auction](/case-studies/sushi_miso_eth_batch_refund_exploit.md)   |   Value Reuse / Accounting Manipulation / Refund Exploit  |   Critical    |   Samczun's blog  |
