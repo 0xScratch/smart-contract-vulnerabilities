@@ -95,3 +95,21 @@
 |   Size    |   [Liquidation Profit Underflow via Decimal Mismatch in Collateral-Debt Conversion](/bugs/math-error/size-liquidation-decimal-mismatch.md)    |   High    |   Code4rena   |
 |   Terplayer   |   [Withdrawal Underflow via Self-Delegation and Ceiling Division in BVT Reward Vault](/bugs/math-error/terplayer-rewardvault-withdraw-underflow-lock.md)  |   Critical    |   Shieldify Audits    |
 |   Traitforge  |   [Age Underestimation Due to Early Integer Division in `calculateAge()`](/bugs/math-error/traitforge-game-mechanics-entropy-age-nuke.md) |   Medium  |   Code4rena   |
+
+## Reentrancy
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   Itos    |   [Self-Transfer Settlement Bypass in `reentrantSettle`](/bugs/reentrancy/itos-reentrantsettle-selftransfer-bypass.md)    |   High    |   Pashov Audit Group  |
+|   Panoptic    |   [Reentrancy in SemiFungiblePositionManager via ERC777 `tokensToSend` Hook](/bugs/reentrancy/panoptic-sfpm-burn-bypass-liquidity-check.md)   |   High    |   Code4rena   |
+|   ReNFT   |   [Reentrancy via `safeTransferFrom` Callback in PAY Rentals](/bugs/reentrancy/renft-reclaimer-pay-rental-reentrancy.md)  |   Medium  |   Code4rena   |
+|   ReNFT   |   [reNFT — ERC1155 Hijack via Reentrancy / TOCTOU (rentedAssets)](/bugs/reentrancy/renft-storage-erc1155-hijack-reentrancy.md)    |   High    |   Code4rena   |
+
+## Timing
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+|   Basin   |   [Immutable BLOCK_TIME Parameter Cause Oracle Flaws](/bugs/timing/basic-block-time-assumption.md)    |   Medium  |   Code4rena   |
+|   Frankencoin |   [Inaccurate Holding Duration on Optimism Due to `block.number` Usage in Equity.sol](/bugs/timing/frankencoin-equity-blocknumber-time-bug.md)    |   Medium  |   Code4rena   |
+|   Karak   |   [Unfair Withdrawal Slashing During Veto Window in Karak Vaults](/bugs/timing/karak-withdraw-slash-mismatch.md)  |   Medium  |   Code4rena   |
+|   Verwa   |   [Permanent Lock via Expired-Lock Undelegation Restriction in VotingEscrow](/bugs/timing/verwa-permanent-lock-expired-undelegation.md)   |   High    |   Code4rena   |
