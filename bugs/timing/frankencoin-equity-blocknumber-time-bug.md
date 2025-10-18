@@ -1,4 +1,4 @@
-# Inaccurate Holding Duration on Optimism Due to `block.number` Usage in Equity.sol
+# Inaccurate Holding Duration on Optimism Due to `block.number` Usage in `Equity.sol`
 
 * **Severity**: Medium
 * **Source**: [Code4rena](https://github.com/code-423n4/2023-04-frankencoin-findings/issues/914) / [One Bug Per Day](https://www.onebugperday.com/v1/35)
