@@ -48,6 +48,7 @@
 |   Livepeer Protocol   |   [Fully Slashed Transcoder Vote Override Denial of Service Vulnerability](/bugs/denial-of-service/livepeer-slashed-transcoder-zero-weight-vote-disruption.md)    |   Medium  |   Code4rena   |
 |   Phi |   [Griefing via Forced Share Lock Extension in Phi Protocol](/bugs/denial-of-service/phi-griefing-sharelock-bypass-via-buyShareCredFor.md)    |   Medium  |   Code4rena   |
 |   PoolTogether    |   [Prize Tier Manipulation via Single Claim Controlling `largestTierClaimed`](/bugs/denial-of-service/pooltogether-prize-tier-manipulation.md)    |   Medium  |   Code4rena   |
+|   Putty   |   [Global Withdraw DoS via Fee Transfer Revert in PuttyV2](/bugs/denial-of-service/putty-global-withdraw-dos-fee-transfer-revert.md)  |   Medium  |   Code4rena   |
 |   ReNFT   |   [Rental Stop DoS via Disabled `onStop` Hook in reNFT Guard Policy](/bugs/denial-of-service/renft-onstop-hook-disable-rental-freeze.md)  |   Medium  |   Code4rena   |
 |   Reserve |   [Dutch Auctions Can Fail to Settle Due to Silent Error Handling in BackingManager](/bugs/denial-of-service/reserve-rebalance-empty-revert-auction-failure.md)   |   Medium  |   Code4rena   |
 |   Revolution Protocol |   [Auction Settlement DoS via Malicious Multi-Creator Setup in Revolution Protocol](/bugs/denial-of-service/revolution-auctionhouse-multicreator-dos.md)  |   Medium  |   Code4rena   |
