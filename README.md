@@ -122,6 +122,7 @@
 |   Arbitrum    |   [Signature Replay in Split-Voting Governor Elections](/bugs/other/arbitrum-signature-replay-in-governor-split-voting.md)    |   Signature Replay / Missing Nonce / Authorization Bypass |   High    |   Code4rena   |
 |   Cap |   [Missing Slippage Protection in Liquidation Allows Unexpected Collateral Loss](/bugs/other/cap-missing-slippage-protection.md)  |   Missing Slippage Protection / Value Mismatch in Liquidation |   Medium  |   Sherlock    |
 |   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/other/goodentry-v3proxy-unchecked-call-return-value.md)    |   call/delegatecall - Unchecked Return Value  |   Medium  |   Code4rena   |
+|   OpenSea |   [Partial Order Fulfillment Discount via Low-Decimal ERC20 in `BasicOrderFulfiller`](/bugs/other/opensea-seaport-partial-order-fulfillment-discount-lowdecimal-erc20.md) |   Precision Loss / Partial Payment Exploit    |   Medium  |   Code4rena   |
 |   Stader  |   [Consensus Stall via Strict Equality in StaderOracle Submissions](/bugs/other/stader-oracle-consensus-stall.md) |   Logic Error / Consensus Liveness Failure    |   Medium  |   Code4rena|
 
 ## Case Studies
