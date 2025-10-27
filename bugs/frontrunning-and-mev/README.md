@@ -1,4 +1,4 @@
-# MEV (Miner Extractable Value) / Auction Manipulation / ERC-777 DoS (Denial of Service) / Block Stuffing
+# Front Running / MEV (Miner Extractable Value) / Auction Manipulation / ERC-777 DoS (Denial of Service) / Block Stuffing
 
 ## Major Real-World Incidents Involving Similar Vulnerabilities
 
