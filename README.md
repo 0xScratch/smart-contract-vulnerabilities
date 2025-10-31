@@ -104,6 +104,7 @@
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+|   Angle Protocol  |   [Reentrancy-Based Reward Inflation via Collateral Ratio Manipulation in Angle Transmuter](/bugs/reentrancy/angleprotocol-collateralratio-reentrancy-reward-inflation.md)    |   Medium  |   Code4rena   |
 |   Itos    |   [Self-Transfer Settlement Bypass in `reentrantSettle`](/bugs/reentrancy/itos-reentrantsettle-selftransfer-bypass.md)    |   High    |   Pashov Audit Group  |
 |   Panoptic    |   [Reentrancy in SemiFungiblePositionManager via ERC777 `tokensToSend` Hook](/bugs/reentrancy/panoptic-sfpm-burn-bypass-liquidity-check.md)   |   High    |   Code4rena   |
 |   ReNFT   |   [Reentrancy via `safeTransferFrom` Callback in PAY Rentals](/bugs/reentrancy/renft-reclaimer-pay-rental-reentrancy.md)  |   Medium  |   Code4rena   |
