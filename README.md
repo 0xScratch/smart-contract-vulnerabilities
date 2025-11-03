@@ -46,6 +46,7 @@
 |   EvmAuth |   [Incorrect Account Assignment in Token Burning Logic in EVMAuthExpiringERC1155](/bugs/denial-of-service/evmauth-incorrect-account-assignment-burn-dos.md)   |   High    |   Trail of Bits   |
 |   Frankencoin |   [Fragile Challenge Finalization Due to Unchecked Transfer Failures in `end()` Function](/bugs/denial-of-service/frankencoin-mintinghub-end-unchecked-transfer-failure.md)   |   Medium  |   Code4rena   |
 |   Gondi   |   [Auction DoS via Minimal Increment Bids in Gondi](/bugs/denial-of-service/gondi_auction_dos_dust_bids_time_lock.md) |   Medium  |   Code4rena   |
+|   Jpegd   |   [Global Withdraw DoS via Negative-Delta Accounting in yVaultLPFarming](/bugs/denial-of-service/jpegd-yvaultlpfarming-underflow-triggered-global-dos.md) |   High    |   Code4rena   |
 |   Livepeer Protocol   |   [Fully Slashed Transcoder Vote Override Denial of Service Vulnerability](/bugs/denial-of-service/livepeer-slashed-transcoder-zero-weight-vote-disruption.md)    |   Medium  |   Code4rena   |
 |   Phi |   [Griefing via Forced Share Lock Extension in Phi Protocol](/bugs/denial-of-service/phi-griefing-sharelock-bypass-via-buyShareCredFor.md)    |   Medium  |   Code4rena   |
 |   PoolTogether    |   [Prize Tier Manipulation via Single Claim Controlling `largestTierClaimed`](/bugs/denial-of-service/pooltogether-prize-tier-manipulation.md)    |   Medium  |   Code4rena   |
