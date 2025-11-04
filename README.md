@@ -97,6 +97,7 @@
 |   Isomorph    |   [Bad Debt Persistence via Truncation Mismatch in Isomorph Velo Vault](/bugs/math-error/isomorph-collateral-accounting-inflation-borrow-miscalculation.md)   |   Medium  |   Sherlock Audits |
 |   Munchables  |   [Asset Freezing via Flawed Reward Penalty Calculation in LandManager](/bugs/math-error/munchables-asset-freeze-landmanager-integer-underflow.md)    |   High    |   Code4rena   |
 |   Ostium  |   [Wrong Collateral Refund in Liquidation (`liqPrice == priceAfterImpact`)](/bugs/math-error/ostium-liquidation-wrong-collateral-refund.md)   |   Medium  |   Pashov Audit Group  |
+|   Rigor   |   [Rounding Error Interest Loss via Day-Truncation in Interest Calculation](/bugs/math-error/rigor-interest-rounding-loss-due-to-day-truncation.md)   |   High    |   OpenCoreCh's Report |
 |   Size    |   [Liquidation Profit Underflow via Decimal Mismatch in Collateral-Debt Conversion](/bugs/math-error/size-liquidation-decimal-mismatch.md)    |   High    |   Code4rena   |
 |   Terplayer   |   [Withdrawal Underflow via Self-Delegation and Ceiling Division in BVT Reward Vault](/bugs/math-error/terplayer-rewardvault-withdraw-underflow-lock.md)  |   Critical    |   Shieldify Audits    |
 |   Traitforge  |   [Age Underestimation Due to Early Integer Division in `calculateAge()`](/bugs/math-error/traitforge-game-mechanics-entropy-age-nuke.md) |   Medium  |   Code4rena   |
