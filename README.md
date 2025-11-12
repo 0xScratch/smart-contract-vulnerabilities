@@ -130,6 +130,7 @@
 |   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/other/goodentry-v3proxy-unchecked-call-return-value.md)    |   call/delegatecall - Unchecked Return Value  |   Medium  |   Code4rena   |
 |   OpenSea |   [Partial Order Fulfillment Discount via Low-Decimal ERC20 in `BasicOrderFulfiller`](/bugs/other/opensea-seaport-partial-order-fulfillment-discount-lowdecimal-erc20.md) |   Precision Loss / Partial Payment Exploit    |   Medium  |   Code4rena   |
 |   Stader  |   [Consensus Stall via Strict Equality in StaderOracle Submissions](/bugs/other/stader-oracle-consensus-stall.md) |   Logic Error / Consensus Liveness Failure    |   Medium  |   Code4rena|
+|   Y2K Finance |   [EIP-4626 Interface Mismatch Causing Potential Integration Breakage in SemiFungibleVault](/bugs/other/y2kfinance-eip4626-noncompliance-integrationrisk.md)  |   Standards Non-Compliance / Composability Risk / Integration Inconsistency   |   High    |   Code4rena   |
 
 ## Case Studies
 
