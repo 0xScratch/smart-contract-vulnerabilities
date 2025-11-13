@@ -88,6 +88,7 @@
 |   Maia    |   [Cross‑chain DepositNonce Poisoning — `retrieveDeposit()` allows arbitrary nonces to be marked executed](/bugs/invalid-validation/maia-branchbridgeagent-retrievedeposit-depositnonce-poisoning.md) |   High    |   Code4rena   |
 |   Nextgen |   [Double Royalty Payout Due to Faulty Split Logic in NextGen Minter Contract](/bugs/invalid-validation/nextgen-minter-splits-bypass.md)  |   Medium  |   Code4rena   |
 |   Panoptic    |   [Duplicate TokenId fingerprint collision → solvency bypass in `PanopticPool.sol`](/bugs/invalid-validation/panoptic-collateral-accounting-position-duplication-insolvency-bypass.md)    |   Medium  |   Code4rena   |
+|   Lindy Labs Sandlock |   [Flash-Loan Fee Ignorance Leading to Rebalance & Withdraw DoS in Sandclock Vaults](/bugs/invalid-validation/sandclock-flashloan-fees-ignored-withdraw-dos.md)   |   High    |   Solodit |
 |   Venus   |   [Fragile Liquidation Check in `Comptroller.sol` — Zero Borrow Balance Requirement](/bugs/invalid-validation/venus-comptroller-liquidation-zero-balance.md)  |   Medium  |   Code4rena   |
 
 ## Math / Arithmetic Errors
