@@ -63,6 +63,7 @@
 |---------------|-------------------|---------------|-----------|
 |   Derby Finance   |   [On-Chain Slippage Manipulation via Uniswap Quoter in Derby Finance](/bugs/frontrunning-and-mev/derbyfinance-onchain-slippage-manipulation-uniswap-quoter-mev-sandwich.md)   |   High    |   Sherlock Audits |
 |   Ethereum Credit Guild |   [Auction manipulation by block stuffing and reverting on ERC-777 hooks](/bugs/frontrunning-and-mev/ethcreditguild-auction-block-stuffing.md) |   Medium  |   Code4rena   |
+|   EYWA    |   [Transaction DoS via permit() Front-Running in RouterV2]    |   Medium  |   MixBytes    |
 |   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/frontrunning-and-mev/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
 |   Loop Vaults |   [Incorrect Vesting Interest Calculation Enables MEV Exploitation](/bugs/frontrunning-and-mev/loop-vaults-incorrect-vesting-interest-mev.md)  |   High    |   Pashov Audit Group  |
 |   Notional Finance    |   [Approval Front-Running via Allowance Overwrite in `NoteERC20`](/bugs/frontrunning-and-mev/notional-approval-front-run-allowance-overwrite.md)  |   Medium  |   OpenZeppelin Audit  |
