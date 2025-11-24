@@ -67,6 +67,7 @@
 |   Ethereum Credit Guild |   [Auction manipulation by block stuffing and reverting on ERC-777 hooks](/bugs/frontrunning-and-mev/ethcreditguild-auction-block-stuffing.md) |   Medium  |   Code4rena   |
 |   EYWA    |   [Transaction DoS via permit() Front-Running in RouterV2](/bugs/frontrunning-and-mev/eywa-permit-front-running-transaction-dos.md)    |   Medium  |   MixBytes    |
 |   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/frontrunning-and-mev/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
+|   InitCapital |   [Limit Price Manipulation via Front-Running Allows Theft in Margin Order Filling](/bugs/frontrunning-and-mev/initcapital-limit-price-front-run-margin-order-theft.md)   |   High    |   Code4rena   |
 |   Loop Vaults |   [Incorrect Vesting Interest Calculation Enables MEV Exploitation](/bugs/frontrunning-and-mev/loop-vaults-incorrect-vesting-interest-mev.md)  |   High    |   Pashov Audit Group  |
 |   Notional Finance    |   [Approval Front-Running via Allowance Overwrite in `NoteERC20`](/bugs/frontrunning-and-mev/notional-approval-front-run-allowance-overwrite.md)  |   Medium  |   OpenZeppelin Audit  |
 |   Nuts Finance    |   [Initial Mint Front‑Run Inflation Attack — SelfPeggingAsset (Tapio / NUTS Finance)](/bugs/frontrunning-and-mev/nutsfinance-initial-mint-front-run-inflation-attack-selfpeggingasset.md)    |   Critical    |   Tapio Security Audit Report |
