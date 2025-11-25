@@ -71,6 +71,7 @@
 |   Loop Vaults |   [Incorrect Vesting Interest Calculation Enables MEV Exploitation](/bugs/frontrunning-and-mev/loop-vaults-incorrect-vesting-interest-mev.md)  |   High    |   Pashov Audit Group  |
 |   Notional Finance    |   [Approval Front-Running via Allowance Overwrite in `NoteERC20`](/bugs/frontrunning-and-mev/notional-approval-front-run-allowance-overwrite.md)  |   Medium  |   OpenZeppelin Audit  |
 |   Nuts Finance    |   [Initial Mint Front‑Run Inflation Attack — SelfPeggingAsset (Tapio / NUTS Finance)](/bugs/frontrunning-and-mev/nutsfinance-initial-mint-front-run-inflation-attack-selfpeggingasset.md)    |   Critical    |   Tapio Security Audit Report |
+|   Rhinestone  |   [PermissionID Swap Attack via Unsigned Permission Identifier in Enable-Mode Digest](/bugs/frontrunning-and-mev/rhinestone-smartsessions-permissionid-swap-during-enable-mode.md)    |   High    |   Solodit |
 
 ## Governance
 
