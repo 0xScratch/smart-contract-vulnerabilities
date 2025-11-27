@@ -28,6 +28,7 @@
 |   PoolTogether    |   [Loss of Unclaimed Yield Fees Due to Partial Claim Reset in PrizeVault](/bugs/business-logic-flaw/pooltogether-prizevault-yield-fee-claim-accounting-bug.md)    |   High    |   Code4rena   |
 |   Reserve |   [Revenue Loss via Mid-Flight Distribution Parameter Changes in Reserve Protocol Distributor](/bugs/business-logic-flaw/reserve-protocol-distributor-mid-flight-revenue-diversion.md)    |   Medium  |   Code4rena   |
 |   Revert  |   [Incorrect Daily Lending/Borrowing Cap Due to Off-by-One Scaling in V3Vault](/bugs/business-logic-flaw/revert-v3vault-math-daily-limit-overflow.md) |   Medium  |   Code4rena   |
+|   Sentiment   |   [Protocol Reserve Leakage via Unrestricted Borrowing in LToken Vault](/bugs/business-logic-flaw/sentiment-protocol-reserve-leakage-unrestricted-borrowing.md)   |   Medium  |   Sherlock Audits |
 |   Size    |   [Incremental Compensation Blocked by Strict CR Check in `compensate()`](/bugs/business-logic-flaw/size-compensate-strict-collateral-ratio-check.md) |   Medium  |   Code4rena   |
 |   Tapioca |   [Incorrect Share-to-Fraction Calculation Due to Inconsistent Rounding in MagnetarHelper](/bugs/business-logic-flaw/tapioca-withdraw-helper-rounding-mismatch.md)    |   Medium  |   Code4rena   |
 |   Verwa   |   [Extra Gauge Weight via Front-Running Governance Overrides in GaugeController](/bugs/business-logic-flaw/verwa-gauge-weight-front-run-exploit.md)   |   Medium  |   Code4rena   |
