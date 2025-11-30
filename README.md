@@ -24,6 +24,7 @@
 |   Licredity   |   [Self-Liquidation via Unlock Abuse in Licredity](/bugs/business-logic-flaw/licredity-self-liquidation-unlock-abuse.md)  |   Critical    |   Cyfrin Audits   |
 |   Licredity   |   [Self-Triggered Back-Run Enables LP Fee Farming in Licredity](/bugs/business-logic-flaw/licredity-self-triggered-backrun-fee-farming.md)    |   High    |   Cyfrin Audits   |
 |   Licredity   |   [Index Desynchronization via Swap-and-Pop in Position Fungibles](/bugs/business-logic-flaw/licredity-swap-pop-index-desync.md)  |   Critical    |   Cyfrin Audits   |
+|   Notional Finance    |   [Single-Sided Redemption Slippage Bypass via Miscomputed Min Amounts](/bugs/business-logic-flaw/notional-single-sided-redemption-min-amount-miscalculation-slippage-loss.md)    |   High    |   Sherlock Audits |
 |   Opensea |   [Seaport Merkle Tree Intermediate Hash Bypass in Criteria Resolution](/bugs/business-logic-flaw/opensea-seaport-criteriaresolution-merkle-intermediate-hash-bypass.md)  |   Medium  |   Code4rena   |
 |   Particle    |   [Ineffective Deadline Usage in Particle's LiquidityPosition Library](/bugs/business-logic-flaw/particle-liquidityposition-deadline-flaw.md) |   Medium  |   Code4rena   |
 |   PoolTogether    |   [Loss of Unclaimed Yield Fees Due to Partial Claim Reset in PrizeVault](/bugs/business-logic-flaw/pooltogether-prizevault-yield-fee-claim-accounting-bug.md)    |   High    |   Code4rena   |
