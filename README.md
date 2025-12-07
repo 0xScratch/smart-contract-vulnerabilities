@@ -80,6 +80,7 @@
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+|   Alchemix    |   [Zero-Supply Proposal Spam in AlchemixGovernor (Griefing Attack)](/bugs/governance/alchemix-governor-zero-supply-proposal-spam-griefing.md) |   Medium  |   Solodit (Immunefi)  |
 |   Ethereum Credit Guild   |   [Cheap Governance Manipulation via PSM Unlimited Minting](/bugs/governance/ethereumcreditguild-psm-governance-veto.md)  |   Medium  |   Code4rena   |
 |   Salty   |   [Vote Inflation via SALT Recycling in Proposals.sol](/bugs/governance/salty-ballot-vote-recycling.md)   |   Medium  |   Code4rena   |
 
