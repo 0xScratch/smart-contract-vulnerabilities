@@ -1,6 +1,62 @@
 # Smart Contract Vulnerabilities
 
-## Access Control
+This repository contains a curated list of known smart contract vulnerabilities categorized by their type. Each entry includes a brief description of the vulnerability, its severity, and a link to a detailed report or analysis.
+
+> I try to keep adding vulnerabilities as soon as I come across one through solodit, or any other means. That said, it doesn't mean one will find every finding in here. Most of them seemed good so far.
+>
+> The sole purpose of this repository is just to make white hats (especially me) understand these findings in easy way possible, with the help of AI. Usually, one needs to work around a bit more in order to understand why something is a vulnerability at first place. So, this repository, decodes it in simple form and will definitely prove to useful for me, as far as I am concerned.
+>
+> And Most importantly, it will create a habit of me to keep reading other auditors' reports!!
+
+## Table of Contents
+
+- [Smart Contract Vulnerabilities](#smart-contract-vulnerabilities)
+  - [Table of Contents](#table-of-contents)
+  - [How each finding is listed?](#how-each-finding-is-listed)
+  - [Vulnerability Categories](#vulnerability-categories)
+    - [Access Control](#access-control)
+    - [Business Logic Flaw](#business-logic-flaw)
+    - [Denial of Service](#denial-of-service)
+    - [Front Running/MEV](#front-runningmev)
+    - [Governance](#governance)
+    - [Insecure Randomness](#insecure-randomness)
+    - [Invalid Validation](#invalid-validation)
+    - [Math / Arithmetic Errors](#math--arithmetic-errors)
+    - [Reentrancy](#reentrancy)
+    - [Timing](#timing)
+    - [Others](#others)
+  - [Case Studies](#case-studies)
+
+## How each finding is listed?
+
+Here are the common steps I took in listing these findings:
+
+- First, an obvious step, I went through a vulnerability (let's say from solodit, or any other means) and understood what's going on in here.
+- After that the same finding is passed to AI (chatGPT or Grok), and its help is taken to understand it even better.
+- Now we know our AI assistant understand it well, all I need to do is pass the template, which contains the following sections:
+  - **Title**: *Self explanatory*
+  - **Some extra meaningful details**
+    - Severity
+    - Source
+    - Affected Contract
+    - Vulnerability Type
+  - *Some early added vulnerabilities might contain the original finding that auditors wrote*
+  - **Summary**: A straight written summary about the finding
+  - **A Better Explanation (With Simplified Example)**
+    - **Intended Behavior**: What should happen
+    - **What Actually Happens (Bug)**
+    - **Why This Matters**: Impact
+    - **Concrete Walkthrough**: The simplified example, it helps sometimes
+  - **Vulnerable Code Reference**
+  - **Recommended Mitigation**
+  - **Pattern Recognition Notes**: Really Important!!
+  - **Quick Recall (TL;DR)**: Only latest added findings contains this section
+- Next, the generated finding by AI is usually checked and thus been added under the relevant category.
+- Each category contains a table for easier accessibility.
+
+## Vulnerability Categories
+
+### Access Control
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -12,7 +68,9 @@
 |   Stader  |   [Permissionless Reward Drain Allows Unfair Operator Slashing in ValidatorWithdrawalVault](/bugs/access-control/stader-validatorwithdrawalvault-distributerewards-slashing.md)   |   Medium  |   Code4rena   |
 |   Virtuals Protocol   |   [ContributionNft Mint Abuse via Unrestricted Proposer Control](/bugs/access-control/virtuals-contributionnft-mint-role-overreach.md)    |   Medium  |   Code4rena   |
 
-## Business Logic Flaw
+---
+
+### Business Logic Flaw
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -36,7 +94,9 @@
 |   Verwa   |   [Extra Gauge Weight via Front-Running Governance Overrides in GaugeController](/bugs/business-logic-flaw/verwa-gauge-weight-front-run-exploit.md)   |   Medium  |   Code4rena   |
 |   Verwa   |   [Replay Attack in Gauge Voting via Delegation Abuse](/bugs/business-logic-flaw/verwa-gaugecontroller-voting-power-replay-via-delegation.md) |   High    |   Code4rena   |
 
-## Denial of Service
+---
+
+### Denial of Service
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -61,7 +121,9 @@
 |   Revolution Protocol |   [DoS via Gas-Intensive NFT Minting Failing AuctionHouse's Auction Creation](/bugs/denial-of-service/revolution-protocol-auctionhouse-gas-intensive-nft-minting.md)  |   Medium  |   Code4rena   |
 |   Taiko   |   [Denial of Service via Permissioned Genesis Block](/bugs/denial-of-service/taiko-permissioned-genesis-block-dos.md) |   Medium  |   Code4rena   |
 
-## Front Running/MEV
+---
+
+### Front Running/MEV
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -78,7 +140,9 @@
 |   Rhinestone  |   [PermissionID Swap Attack via Unsigned Permission Identifier in Enable-Mode Digest](/bugs/frontrunning-and-mev/rhinestone-smartsessions-permissionid-swap-during-enable-mode.md)    |   High    |   Solodit |
 |   Stealth Project |   [Front-Run Pool Initialization & Forced Mispriced Liquidity Deposit in `getOrCreatePoolAndAddLiquidity`](/bugs/frontrunning-and-mev/stealthproject-front-run-initial-tick-liquidity-mispricing.md)  |   Medium  |   Solodit (Code4rena) |
 
-## Governance
+---
+
+### Governance
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -86,13 +150,17 @@
 |   Ethereum Credit Guild   |   [Cheap Governance Manipulation via PSM Unlimited Minting](/bugs/governance/ethereumcreditguild-psm-governance-veto.md)  |   Medium  |   Code4rena   |
 |   Salty   |   [Vote Inflation via SALT Recycling in Proposals.sol](/bugs/governance/salty-ballot-vote-recycling.md)   |   Medium  |   Code4rena   |
 
-## Insecure Randomness
+---
+
+### Insecure Randomness
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   AI Arena    |   [NFT Attribute Manipulation via onERC721Received Hook Revert](/bugs/insecure-randomness/ai-arena-fighter-farm-revert-to-reroll.md)  |   Medium  |   Code4rena   |
 
-## Invalid Validation
+---
+
+### Invalid Validation
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -105,7 +173,9 @@
 |   Lindy Labs Sandlock |   [Flash-Loan Fee Ignorance Leading to Rebalance & Withdraw DoS in Sandclock Vaults](/bugs/invalid-validation/sandclock-flashloan-fees-ignored-withdraw-dos.md)   |   High    |   Solodit |
 |   Venus   |   [Fragile Liquidation Check in `Comptroller.sol` — Zero Borrow Balance Requirement](/bugs/invalid-validation/venus-comptroller-liquidation-zero-balance.md)  |   Medium  |   Code4rena   |
 
-## Math / Arithmetic Errors
+---
+
+### Math / Arithmetic Errors
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -118,7 +188,9 @@
 |   Terplayer   |   [Withdrawal Underflow via Self-Delegation and Ceiling Division in BVT Reward Vault](/bugs/math-error/terplayer-rewardvault-withdraw-underflow-lock.md)  |   Critical    |   Shieldify Audits    |
 |   Traitforge  |   [Age Underestimation Due to Early Integer Division in `calculateAge()`](/bugs/math-error/traitforge-game-mechanics-entropy-age-nuke.md) |   Medium  |   Code4rena   |
 
-## Reentrancy
+---
+
+### Reentrancy
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -128,7 +200,9 @@
 |   ReNFT   |   [Reentrancy via `safeTransferFrom` Callback in PAY Rentals](/bugs/reentrancy/renft-reclaimer-pay-rental-reentrancy.md)  |   Medium  |   Code4rena   |
 |   ReNFT   |   [reNFT — ERC1155 Hijack via Reentrancy / TOCTOU (rentedAssets)](/bugs/reentrancy/renft-storage-erc1155-hijack-reentrancy.md)    |   High    |   Code4rena   |
 
-## Timing
+---
+
+### Timing
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
@@ -138,7 +212,9 @@
 |   Renzo   |   [L1→L2 Price Update Reverts Due to Cross-Chain Timestamp Mismatch](/bugs/timing/renzoprotocol-l1-l2-timestamp-mismatch-priceupdate-revert.md)   |   Medium    |   Code4rena   |
 |   Verwa   |   [Permanent Lock via Expired-Lock Undelegation Restriction in VotingEscrow](/bugs/timing/verwa-permanent-lock-expired-undelegation.md)   |   High    |   Code4rena   |
 
-## Others
+---
+
+### Others
 
 |   Protocol    |   Vulnerability   |   Type    |   Severity  | Source  |
 |---------------|-------------------|---------------|-----------|-----------|
