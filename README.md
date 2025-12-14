@@ -65,6 +65,7 @@
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+|   Abracadabra.money | [Deterministic Pool Address Hijack via `tx.origin` on Blast (CREATE2 Collision Under Reorg)](/bugs/frontrunning-and-mev/abracadabra-deterministic-address-hijack-txorigin-blast-reorg.md)   |   Medium  |   Code4rena   |
 |   Blueberry   |   [Blueberry Protocol - Disabled Deadline Enables Stale Swaps & MEV Exploitation](/bugs/frontrunning-and-mev/blueberry-disabled-swap-deadline-stale-tx-mev-exploit.md)    |   High    |   Sherlock Audits |
 |   Derby Finance   |   [On-Chain Slippage Manipulation via Uniswap Quoter in Derby Finance](/bugs/frontrunning-and-mev/derbyfinance-onchain-slippage-manipulation-uniswap-quoter-mev-sandwich.md)   |   High    |   Sherlock Audits |
 |   Ethereum Credit Guild |   [Auction manipulation by block stuffing and reverting on ERC-777 hooks](/bugs/frontrunning-and-mev/ethcreditguild-auction-block-stuffing.md) |   Medium  |   Code4rena   |
