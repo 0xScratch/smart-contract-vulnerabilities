@@ -75,7 +75,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Abracadabra |   [Improper Handling of Rebasing Tokens in Lending/Borrowing Logic](/bugs/business-logic-flaw/abracadabra-lockingmultirewards-rebasing-token-misuse.md)   |   Medium  |   Code4rena   |
-| Amphora | [Reorg-Based Vault Address Hijacking via CREATE Deployment in Amphora]  | Medium  | Code4rena |
+| Amphora | [Reorg-Based Vault Address Hijacking via CREATE Deployment in Amphora](/bugs/business-logic-flaw/amphora-reorg-based-vault-address-hijacking-create-deployment.md)  | Medium  | Code4rena |
 |   Arcade  |   [Incorrect `gscAllowance` Accounting & ERC20 Allowance Overwrite Risk in ArcadeTreasury](/bugs/business-logic-flaw/arcade-gscAllowance-erc20-allowance-overwrite.md)    |   Medium  |   Code4rena   |
 |   Badger  |   [Redemption Drains Healthy CDPs → System-Wide Under-Collateralization](/bugs/business-logic-flaw/badger-redemption-healthy-cdp-drain.md)    |   Medium  |   Code4rena   |
 |   Canto   |   [Epoch Boundary Reward Inflation via Misaligned `nextEpoch` Calculation in `update_market`](/bugs/business-logic-flaw/canto-epoch-reward-inflation.md)  |   High    |   Code4rena   |
