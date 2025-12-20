@@ -64,6 +64,7 @@ Here are the common steps I took in listing these findings:
 |   BakerFi     |   [Arbitrary `originalAmount` in Flash Loan Data Allows Logic Manipulation](/bugs/access-control/bakerfi-flashloandata-callback-unvalidated-param.md) |   Medium  |   Code4rena   |
 |   Escher  |   [Sale Finalization Failure Due to Deprecated `selfdestruct` Semantics in Escher FixedPrice & OpenEdition](/bugs/access-control/escher-sale-not-finalized-due-to-selfdestruct-semantics-change.md)   |   Medium  |   Code4rena   |
 |   Karak   |   [Unslashable NativeVault via Unvalidated `extraData` and Unrestricted Manager Upgrade](/bugs/access-control/karak-nativevault-unslashable-vault-manager-upgrade.md) |   High    |   Code4rena  |
+| MonoX | [Unauthorized Pool Price Manipulation via Missing Access Control in Monoswap](/bugs/access-control/monox-unauthorized-pool-price-update-access-control.md)  | High  | Solodit (Halborn) |
 |   Stader  |   [Loss of Admin via Self-Assignment in `updateAdmin` (Role Revocation Bug)](/bugs/access-control/stader-staderconfig-updateadmin-same-address-access-loss.md)    |   Medium  |   Code4rena   |
 |   Stader  |   [Permissionless Reward Drain Allows Unfair Operator Slashing in ValidatorWithdrawalVault](/bugs/access-control/stader-validatorwithdrawalvault-distributerewards-slashing.md)   |   Medium  |   Code4rena   |
 |   Virtuals Protocol   |   [ContributionNft Mint Abuse via Unrestricted Proposer Control](/bugs/access-control/virtuals-contributionnft-mint-role-overreach.md)    |   Medium  |   Code4rena   |
