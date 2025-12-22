@@ -114,6 +114,7 @@ Here are the common steps I took in listing these findings:
 |   Gondi   |   [Auction DoS via Minimal Increment Bids in Gondi](/bugs/denial-of-service/gondi_auction_dos_dust_bids_time_lock.md) |   Medium  |   Code4rena   |
 |   Jpegd   |   [Global Withdraw DoS via Negative-Delta Accounting in yVaultLPFarming](/bugs/denial-of-service/jpegd-yvaultlpfarming-underflow-triggered-global-dos.md) |   High    |   Code4rena   |
 |   Livepeer Protocol   |   [Fully Slashed Transcoder Vote Override Denial of Service Vulnerability](/bugs/denial-of-service/livepeer-slashed-transcoder-zero-weight-vote-disruption.md)    |   Medium  |   Code4rena   |
+| Nudge.xyz | [DoS on Reallocation Processing via Privileged Executor Role Revocation](/bugs/denial-of-service/nudge-dos-reallocation-executor-role-revocation.md)  | Medium  | Code4rena |
 |   Phi |   [Griefing via Forced Share Lock Extension in Phi Protocol](/bugs/denial-of-service/phi-griefing-sharelock-bypass-via-buyShareCredFor.md)    |   Medium  |   Code4rena   |
 |   PoolTogether    |   [Prize Tier Manipulation via Single Claim Controlling `largestTierClaimed`](/bugs/denial-of-service/pooltogether-prize-tier-manipulation.md)    |   Medium  |   Code4rena   |
 |   Putty   |   [Global Withdraw DoS via Fee Transfer Revert in PuttyV2](/bugs/denial-of-service/putty-global-withdraw-dos-fee-transfer-revert.md)  |   Medium  |   Code4rena   |
