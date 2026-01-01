@@ -151,6 +151,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Alchemix    |   [Zero-Supply Proposal Spam in AlchemixGovernor (Griefing Attack)](/bugs/governance/alchemix-governor-zero-supply-proposal-spam-griefing.md) |   Medium  |   Solodit (Immunefi)  |
+| Behodler  | [Flashloan Manipulation of LP Pricing in burnAsset & setEYEBasedAssetStake](/bugs/governance/behodler-flashloan-lp-pricing-manipulation-fate-inflation.md)  | High  | Code4rena |
 |   Ethereum Credit Guild   |   [Cheap Governance Manipulation via PSM Unlimited Minting](/bugs/governance/ethereumcreditguild-psm-governance-veto.md)  |   Medium  |   Code4rena   |
 |   Salty   |   [Vote Inflation via SALT Recycling in Proposals.sol](/bugs/governance/salty-ballot-vote-recycling.md)   |   Medium  |   Code4rena   |
 
