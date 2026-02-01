@@ -110,6 +110,7 @@ Here are the common steps I took in listing these findings:
 |   Axelar  |   [Denial-of-Service via Flow-Limit Exhaustion in Axelar TokenManager](/bugs/denial-of-service/axelar-tokenmanager-flow-limit-exhaustion.md)  |   Medium  |   Code4rena   |
 |   Basin   |   [Cheap DoS via Zero-Fee TWAP Manipulation in Basin](/bugs/denial-of-service/basin-well-zero-fee-slippage.md)    |   Medium  |   Code4rena   |
 |   Delegate    |   [Nonce Desynchronization Leading to Denial of Service in `CreateOfferer.sol`](/bugs/denial-of-service/delegate-createofferer-nonce-desync-dos.md)   |   Medium  |   Code4rena   |
+| Ekubo | [Cumulative Rounding Refund Error in TWAMM Leads to Pool-Wide DoS and Value Leakage](/bugs/denial-of-service/ekubo-twamm-rounding-error-cumulative-refund-dos.md) | Medium  | Code4rena |
 |   EvmAuth |   [Incomplete Burn Handling in `_burnGroupBalances` (EVMAuthExpiringERC1155)](/bugs/denial-of-service/evmauth-incomplete-burn-groupbalances-dos.md)   |   High    |   Trail of Bits   |
 |   EvmAuth |   [Incorrect Account Assignment in Token Burning Logic in EVMAuthExpiringERC1155](/bugs/denial-of-service/evmauth-incorrect-account-assignment-burn-dos.md)   |   High    |   Trail of Bits   |
 |   Frankencoin |   [Fragile Challenge Finalization Due to Unchecked Transfer Failures in `end()` Function](/bugs/denial-of-service/frankencoin-mintinghub-end-unchecked-transfer-failure.md)   |   Medium  |   Code4rena   |
