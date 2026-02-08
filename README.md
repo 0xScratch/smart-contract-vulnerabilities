@@ -94,6 +94,7 @@ Here are the common steps I took in listing these findings:
 |   Revert  |   [Incorrect Daily Lending/Borrowing Cap Due to Off-by-One Scaling in V3Vault](/bugs/business-logic-flaw/revert-v3vault-math-daily-limit-overflow.md) |   Medium  |   Code4rena   |
 |   Sentiment   |   [Protocol Reserve Leakage via Unrestricted Borrowing in LToken Vault](/bugs/business-logic-flaw/sentiment-protocol-reserve-leakage-unrestricted-borrowing.md)   |   Medium  |   Sherlock Audits |
 |   Size    |   [Incremental Compensation Blocked by Strict CR Check in `compensate()`](/bugs/business-logic-flaw/size-compensate-strict-collateral-ratio-check.md) |   Medium  |   Code4rena   |
+|   Stader  |   [Consensus Stall via Strict Equality in StaderOracle Submissions](/bugs/other/stader-oracle-consensus-stall.md) |   Medium  |   Code4rena|
 |   Tapioca |   [Incorrect Share-to-Fraction Calculation Due to Inconsistent Rounding in MagnetarHelper](/bugs/business-logic-flaw/tapioca-withdraw-helper-rounding-mismatch.md)    |   Medium  |   Code4rena   |
 |   Verwa   |   [Extra Gauge Weight via Front-Running Governance Overrides in GaugeController](/bugs/business-logic-flaw/verwa-gauge-weight-front-run-exploit.md)   |   Medium  |   Code4rena   |
 |   Verwa   |   [Replay Attack in Gauge Voting via Delegation Abuse](/bugs/business-logic-flaw/verwa-gaugecontroller-voting-power-replay-via-delegation.md) |   High    |   Code4rena   |
@@ -154,6 +155,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Alchemix    |   [Zero-Supply Proposal Spam in AlchemixGovernor (Griefing Attack)](/bugs/governance/alchemix-governor-zero-supply-proposal-spam-griefing.md) |   Medium  |   Solodit (Immunefi)  |
+|   Arbitrum    |   [Signature Replay in Split-Voting Governor Elections](/bugs/other/arbitrum-signature-replay-in-governor-split-voting.md)    |   High    |   Code4rena   |
 | Behodler  | [Flashloan Manipulation of LP Pricing in burnAsset & setEYEBasedAssetStake](/bugs/governance/behodler-flashloan-lp-pricing-manipulation-fate-inflation.md)  | High  | Code4rena |
 |   Ethereum Credit Guild   |   [Cheap Governance Manipulation via PSM Unlimited Minting](/bugs/governance/ethereumcreditguild-psm-governance-veto.md)  |   Medium  |   Code4rena   |
 |   Salty   |   [Vote Inflation via SALT Recycling in Proposals.sol](/bugs/governance/salty-ballot-vote-recycling.md)   |   Medium  |   Code4rena   |
@@ -174,6 +176,7 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|
 |   Angle   |   [Invalid Input Validation Leading to Slippage/Token Order Mismatch](/bugs/invalid-validation/angle-transmuter-redeem-token-order-slippage-mismatch.md)  |   Medium  |   Code4rena   |
 | Ekubo | [Partial Fill Allowed in Single-Hop Exact-Out Swaps in Router](/bugs/invalid-validation/ekubo-router-single-hop-exact-out-partial-fill.md)  | Medium  | Code4rena |
+|   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/other/goodentry-v3proxy-unchecked-call-return-value.md)    |   Medium  |   Code4rena   |
 |   Livepeer Protocol   |   [Incorrect Vote Deduction in Livepeer Governance System](/bugs/invalid-validation/livepeer-governor-vote-miscount-delegate-bypass.md)   |   High    |   Code4rena   |
 |   Maia    |   [Cross‑chain DepositNonce Poisoning — `retrieveDeposit()` allows arbitrary nonces to be marked executed](/bugs/invalid-validation/maia-branchbridgeagent-retrievedeposit-depositnonce-poisoning.md) |   High    |   Code4rena   |
 |   Nextgen |   [Double Royalty Payout Due to Faulty Split Logic in NextGen Minter Contract](/bugs/invalid-validation/nextgen-minter-splits-bypass.md)  |   Medium  |   Code4rena   |
@@ -190,6 +193,7 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|
 |   Isomorph    |   [Bad Debt Persistence via Truncation Mismatch in Isomorph Velo Vault](/bugs/math-error/isomorph-collateral-accounting-inflation-borrow-miscalculation.md)   |   Medium  |   Sherlock Audits |
 |   Munchables  |   [Asset Freezing via Flawed Reward Penalty Calculation in LandManager](/bugs/math-error/munchables-asset-freeze-landmanager-integer-underflow.md)    |   High    |   Code4rena   |
+|   OpenSea |   [Partial Order Fulfillment Discount via Low-Decimal ERC20 in `BasicOrderFulfiller`](/bugs/other/opensea-seaport-partial-order-fulfillment-discount-lowdecimal-erc20.md) |   Medium  |   Code4rena   |
 |   Ostium  |   [Wrong Collateral Refund in Liquidation (`liqPrice == priceAfterImpact`)](/bugs/math-error/ostium-liquidation-wrong-collateral-refund.md)   |   Medium  |   Pashov Audit Group  |
 |   PrePO   |   [Zero-Share Mint via Total Asset Inflation in `Collateral.sol`](/bugs/math-error/prepo-zero-shares-mint-price-manipulation-donation-attack.md)  |   High    |   Code4rena   |
 |   Rigor   |   [Rounding Error Interest Loss via Day-Truncation in Interest Calculation](/bugs/math-error/rigor-interest-rounding-loss-due-to-day-truncation.md)   |   High    |   OpenCoreCh's Report |
@@ -211,6 +215,18 @@ Here are the common steps I took in listing these findings:
 
 ---
 
+### Reorg and Consensus
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+| Frankencoin | [Reorg Attack on Position Clone Creation via Predictable CREATE Address Derivation](/bugs/other/frankencoin-reorg-clone-address-prediction.md)  | Medium  | Code4rena |
+| Optimism  | [Loss of Bond Amounts on Re-org Attacks in Fault Dispute Game](/bugs/other/optimism-fault-dispute-reorg-bond-loss.md) | Medium  | Sherlock Audits |
+|   Optimism    |   [Incorrect DISPUTED_L2_BLOCK_NUMBER Causes Cross-Game Context Collisions & Invalid VM Outcomes](/bugs/other/optimism-uncapped-disputed-l2-block-number-cross-game-vm-context-collision.md)  |   High    |   Code4rena   |
+| Rabbithole  | [Predictable Quest Address via CREATE Opcode - Reorg Attack Vulnerability](/bugs/other/rabbithole-predictable-quest-address-reorg-hijack.md)  | Medium  | Code4rena |
+
+---
+
+
 ### Timing
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
@@ -227,16 +243,8 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Type    |   Severity  | Source  |
 |---------------|-------------------|---------------|-----------|-----------|
-|   Arbitrum    |   [Signature Replay in Split-Voting Governor Elections](/bugs/other/arbitrum-signature-replay-in-governor-split-voting.md)    |   Signature Replay / Missing Nonce / Authorization Bypass |   High    |   Code4rena   |
 |   Cap |   [Missing Slippage Protection in Liquidation Allows Unexpected Collateral Loss](/bugs/other/cap-missing-slippage-protection.md)  |   Missing Slippage Protection / Value Mismatch in Liquidation |   Medium  |   Sherlock    |
 | Ekubo | [Oracle Data Corruption via Storage Key Collision in Ekubo Oracle](/bugs/other/ekubo-oracle-storage-key-collision-data-corruption.md) | Storage Collision / Data Corruption / Oracle Integrity Failure  | Medium  | Code4rena |
-| Frankencoin | [Reorg Attack on Position Clone Creation via Predictable CREATE Address Derivation](/bugs/other/frankencoin-reorg-clone-address-prediction.md)  | Address Predictability / Reorganization (Reorg) Attack / Front-Running / Potential Fund Theft | Medium  | Code4rena |
-|   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/other/goodentry-v3proxy-unchecked-call-return-value.md)    |   call/delegatecall - Unchecked Return Value  |   Medium  |   Code4rena   |
-|   OpenSea |   [Partial Order Fulfillment Discount via Low-Decimal ERC20 in `BasicOrderFulfiller`](/bugs/other/opensea-seaport-partial-order-fulfillment-discount-lowdecimal-erc20.md) |   Precision Loss / Partial Payment Exploit    |   Medium  |   Code4rena   |
-| Optimism  | [Loss of Bond Amounts on Re-org Attacks in Fault Dispute Game](/bugs/other/optimism-fault-dispute-reorg-bond-loss.md) | Blockchain Re-org Exploit / State Inconsistency / Bond Theft  | Medium  | Sherlock Audits |
-|   Optimism    |   [Incorrect DISPUTED_L2_BLOCK_NUMBER Causes Cross-Game Context Collisions & Invalid VM Outcomes](/bugs/other/optimism-uncapped-disputed-l2-block-number-cross-game-vm-context-collision.md)  |   Incorrect State Context / Fault Proof Misdirection / Cross-Game Inconsistency   |   High    |   Code4rena   |
-| Rabbithole  | [Predictable Quest Address via CREATE Opcode - Reorg Attack Vulnerability](/bugs/other/rabbithole-predictable-quest-address-reorg-hijack.md)  | Predictable Address / Front-Running / Reorganization (Reorg) Attack / Deployment Risk | Medium  | Code4rena |
-|   Stader  |   [Consensus Stall via Strict Equality in StaderOracle Submissions](/bugs/other/stader-oracle-consensus-stall.md) |   Logic Error / Consensus Liveness Failure    |   Medium  |   Code4rena|
 |   Y2K Finance |   [EIP-4626 Interface Mismatch Causing Potential Integration Breakage in SemiFungibleVault](/bugs/other/y2kfinance-eip4626-noncompliance-integrationrisk.md)  |   Standards Non-Compliance / Composability Risk / Integration Inconsistency   |   High    |   Code4rena   |
 
 ## Case Studies
