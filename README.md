@@ -130,6 +130,14 @@ Here are the common steps I took in listing these findings:
 
 ---
 
+### External Call
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+| Li.Fi | [Arbitrary External Call → Token Drain via User Allowances (GenericBridgeFacet)](/bugs/external-call/lifi-arbitrary-external-call-token-drain-allowance-abuse.md) | High  | Spearbit (Solodit)  |
+
+---
+
 ### Front Running/MEV
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
