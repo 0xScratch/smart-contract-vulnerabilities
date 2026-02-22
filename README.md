@@ -213,6 +213,10 @@ Here are the common steps I took in listing these findings:
 
 ---
 
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+| Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
+
 ### Reentrancy
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
