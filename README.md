@@ -259,6 +259,7 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|-----------|
 |   Cap |   [Missing Slippage Protection in Liquidation Allows Unexpected Collateral Loss](/bugs/other/cap-missing-slippage-protection.md)  |   Missing Slippage Protection / Value Mismatch in Liquidation |   Medium  |   Sherlock    |
 | Ekubo | [Oracle Data Corruption via Storage Key Collision in Ekubo Oracle](/bugs/other/ekubo-oracle-storage-key-collision-data-corruption.md) | Storage Collision / Data Corruption / Oracle Integrity Failure  | Medium  | Code4rena |
+| NftPort | [Signature Bypass via `abi.encodePacked` Hash Collision in Factory](/bugs/other/nftport-abi-encodepacked-hash-collision-signature-bypass-factory.md)  | Authentication Bypass / Hash Collision / Input Encoding | Medium  | Sherlock  |
 | Size  | [Phantom Quote Deposit via Missing Token Code Check in SizeSealed](/bugs/other/size-phantom-quote-deposit-missing-token-code-check-sizesealed.md) | Asset Validation / Phantom Deposit / Trust Assumption | Medium  | Code4rena |
 |   Y2K Finance |   [EIP-4626 Interface Mismatch Causing Potential Integration Breakage in SemiFungibleVault](/bugs/other/y2kfinance-eip4626-noncompliance-integrationrisk.md)  |   Standards Non-Compliance / Composability Risk / Integration Inconsistency   |   High    |   Code4rena   |
 
