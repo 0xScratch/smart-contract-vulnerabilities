@@ -224,6 +224,7 @@ Here are the common steps I took in listing these findings:
 |   Angle Protocol  |   [Reentrancy-Based Reward Inflation via Collateral Ratio Manipulation in Angle Transmuter](/bugs/reentrancy/angleprotocol-collateralratio-reentrancy-reward-inflation.md)    |   Medium  |   Code4rena   |
 | Caviar  | [Excess ETH Theft via Royalty Recipient Reentrancy in EthRouter](/bugs/reentrancy/caviar-excess-eth-theft-via-royalty-recipient-reentrancy-ethrouter-privatepool.md)  | Medium  | Code4rena |
 |   Itos    |   [Self-Transfer Settlement Bypass in `reentrantSettle`](/bugs/reentrancy/itos-reentrantsettle-selftransfer-bypass.md)    |   High    |   Pashov Audit Group  |
+| Kuiper  | [Kuiper — Reentrancy-Driven Basket Drain via `settleAuction`](/bugs/reentrancy/kuiper-settleauction-reentrancy-basket-drain.md) | High  | Code4rena |
 |   Panoptic    |   [Reentrancy in SemiFungiblePositionManager via ERC777 `tokensToSend` Hook](/bugs/reentrancy/panoptic-sfpm-burn-bypass-liquidity-check.md)   |   High    |   Code4rena   |
 |   ReNFT   |   [Reentrancy via `safeTransferFrom` Callback in PAY Rentals](/bugs/reentrancy/renft-reclaimer-pay-rental-reentrancy.md)  |   Medium  |   Code4rena   |
 |   ReNFT   |   [reNFT — ERC1155 Hijack via Reentrancy / TOCTOU (rentedAssets)](/bugs/reentrancy/renft-storage-erc1155-hijack-reentrancy.md)    |   High    |   Code4rena   |
