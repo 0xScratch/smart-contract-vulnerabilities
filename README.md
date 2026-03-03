@@ -202,6 +202,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| BlueBerry | [Premature Liquidation via Stale Underlying Vault Accounting](/bugs/math-error/blueberry-premature-liquidation-stale-underlying-vault-accounting.md)  | High  | Sherlock  |
 |   Isomorph    |   [Bad Debt Persistence via Truncation Mismatch in Isomorph Velo Vault](/bugs/math-error/isomorph-collateral-accounting-inflation-borrow-miscalculation.md)   |   Medium  |   Sherlock Audits |
 |   Munchables  |   [Asset Freezing via Flawed Reward Penalty Calculation in LandManager](/bugs/math-error/munchables-asset-freeze-landmanager-integer-underflow.md)    |   High    |   Code4rena   |
 |   OpenSea |   [Partial Order Fulfillment Discount via Low-Decimal ERC20 in `BasicOrderFulfiller`](/bugs/math-error/opensea-seaport-partial-order-fulfillment-discount-lowdecimal-erc20.md) |   Medium  |   Code4rena   |
