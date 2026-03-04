@@ -135,6 +135,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| 0x v3 Exchange  | [Poison Order Gas Griefing Causing Market Order DoS in 0x v3 Exchange](/bugs/external-call/0x-protocol-v3-poison-order-gas-griefing-market-order-dos.md)  | Medium  | Consensys (Solodit)
 | Li.Fi | [Arbitrary External Call → Token Drain via User Allowances (GenericBridgeFacet)](/bugs/external-call/lifi-arbitrary-external-call-token-drain-allowance-abuse.md) | High  | Spearbit (Solodit)  |
 
 ---
