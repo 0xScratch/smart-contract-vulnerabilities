@@ -251,6 +251,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| Backd | [Inflation Schedule Corruption via Premature `executeInflationRateUpdate` Call](/bugs/timing/backd-uninitialized-inflation-timestamp-premature-update-minter.md)  | High  | Code4rena |
 |   Basin   |   [Immutable BLOCK_TIME Parameter Cause Oracle Flaws](/bugs/timing/basin-block-time-assumption.md)    |   Medium  |   Code4rena   |
 |   Frankencoin |   [Inaccurate Holding Duration on Optimism Due to `block.number` Usage in `Equity.sol`](/bugs/timing/frankencoin-equity-blocknumber-time-bug.md)    |   Medium  |   Code4rena   |
 |   Karak   |   [Unfair Withdrawal Slashing During Veto Window in Karak Vaults](/bugs/timing/karak-withdraw-slash-mismatch.md)  |   Medium  |   Code4rena   |
