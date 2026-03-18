@@ -130,6 +130,7 @@ Here are the common steps I took in listing these findings:
 |   Revolution Protocol |   [Auction Settlement DoS via Malicious Multi-Creator Setup in Revolution Protocol](/bugs/denial-of-service/revolution-auctionhouse-multicreator-dos.md)  |   Medium  |   Code4rena   |
 |   Revolution Protocol |   [DoS via Gas-Intensive NFT Minting Failing AuctionHouse's Auction Creation](/bugs/denial-of-service/revolution-protocol-auctionhouse-gas-intensive-nft-minting.md)  |   Medium  |   Code4rena   |
 |   Taiko   |   [Denial of Service via Permissioned Genesis Block](/bugs/denial-of-service/taiko-permissioned-genesis-block-dos.md) |   Medium  |   Code4rena   |
+| UXD | [Cross-Chain Channel DoS via Oversized Payload in OFTCore](/bugs/denial-of-service/uxd-oversized-payload-cross-chain-queue-dos-oftcore.md)  | High  | Sherlock  |
 
 ---
 
