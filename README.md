@@ -228,6 +228,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Angle Protocol  |   [Reentrancy-Based Reward Inflation via Collateral Ratio Manipulation in Angle Transmuter](/bugs/reentrancy/angleprotocol-collateralratio-reentrancy-reward-inflation.md)    |   Medium  |   Code4rena   |
+| Blueberry | [Read-Only Reentrancy Price Manipulation in BalancerPairOracle](/bugs/reentrancy/blueberry-balancerpairoracle-readonly-reentrancy-price-manipulation-liquidation.md)  | High  | Sherlock  |
 | Caviar  | [Excess ETH Theft via Royalty Recipient Reentrancy in EthRouter](/bugs/reentrancy/caviar-excess-eth-theft-via-royalty-recipient-reentrancy-ethrouter-privatepool.md)  | Medium  | Code4rena |
 |   Itos    |   [Self-Transfer Settlement Bypass in `reentrantSettle`](/bugs/reentrancy/itos-reentrantsettle-selftransfer-bypass.md)    |   High    |   Pashov Audit Group  |
 | Kuiper  | [Kuiper — Reentrancy-Driven Basket Drain via `settleAuction`](/bugs/reentrancy/kuiper-settleauction-reentrancy-basket-drain.md) | High  | Code4rena |
