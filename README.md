@@ -264,6 +264,14 @@ Here are the common steps I took in listing these findings:
 
 ---
 
+### Oracle
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+| Renzo | [Global Price Feed DoS via CCIP Message Revert in Price Receiver](/bugs/oracle/renzo-ccip-pricefeed-queue-dos.md) | Medium  | Code4rena |
+
+---
+
 ### Others
 
 |   Protocol    |   Vulnerability   |   Type    |   Severity  | Source  |
