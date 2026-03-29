@@ -17,12 +17,15 @@ This repository contains a curated list of known smart contract vulnerabilities 
     - [Access Control](#access-control)
     - [Business Logic Flaw](#business-logic-flaw)
     - [Denial of Service](#denial-of-service)
+    - [External Call](#external-call)
     - [Front Running/MEV](#front-runningmev)
     - [Governance](#governance)
     - [Insecure Randomness](#insecure-randomness)
     - [Invalid Validation](#invalid-validation)
     - [Math / Arithmetic Errors](#math--arithmetic-errors)
+    - [Oracle](#oracle)
     - [Reentrancy](#reentrancy)
+    - [Reorg and Consensus](#reorg-and-consensus)
     - [Timing](#timing)
     - [Others](#others)
   - [Case Studies](#case-studies)
@@ -220,10 +223,6 @@ Here are the common steps I took in listing these findings:
 
 ---
 
-|   Protocol    |   Vulnerability   |   Severity    |   Source  |
-|---------------|-------------------|---------------|-----------|
-| Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
-
 ### Reentrancy
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
@@ -250,7 +249,6 @@ Here are the common steps I took in listing these findings:
 
 ---
 
-
 ### Timing
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
@@ -268,6 +266,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
 | Renzo | [Global Price Feed DoS via CCIP Message Revert in Price Receiver](/bugs/oracle/renzo-ccip-pricefeed-queue-dos.md) | Medium  | Code4rena |
 
 ---
