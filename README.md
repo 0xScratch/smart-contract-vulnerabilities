@@ -283,6 +283,7 @@ Here are the common steps I took in listing these findings:
 | Rolla | [Replayable Meta-Transaction via Nonce Rollback on Failed Execution](/bugs/other/rolla-replayable-meta-transaction-via-nonce-rollback-on-failed-execution.md) | Replay Attack / Nonce Management / Meta-Transaction Design Flaw | High  | Code4rena |
 | Size  | [Phantom Quote Deposit via Missing Token Code Check in SizeSealed](/bugs/other/size-phantom-quote-deposit-missing-token-code-check-sizesealed.md) | Asset Validation / Phantom Deposit / Trust Assumption | Medium  | Code4rena |
 | Stake.link  | [Incorrect Reward Distribution Due to Missing Reward Update in `handleIncomingUpdate`](/bugs/other/stakelink-reward-accounting-not-updated-handleincomingupdate-reward-miscalculation.md) | Reward Accounting Error / State Update Order  | High  | CodeHawks |
+| Surge | [ERC20 `transferFrom` Incompatibility via Self-Allowance Requirement](/bugs/other/surge-transferfrom-self-allowance-erc20-incompatibility.md) | ERC20 Non-Standard Behavior / Compatibility Issue / Funds Stranding | Medium  | Sherlock  |
 |   Y2K Finance |   [EIP-4626 Interface Mismatch Causing Potential Integration Breakage in SemiFungibleVault](/bugs/other/y2kfinance-eip4626-noncompliance-integrationrisk.md)  |   Standards Non-Compliance / Composability Risk / Integration Inconsistency   |   High    |   Code4rena   |
 
 ## Case Studies
