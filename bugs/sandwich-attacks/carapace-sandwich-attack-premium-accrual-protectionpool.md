@@ -2,7 +2,7 @@
 
 * **Severity**: High
 * **Source**: [Sherlock](https://github.com/sherlock-audit/2023-02-carapace-judging/issues/26)
-* **Affected Contract**: [ProtectionPool.sol](/bugs/sandwich-attacks/carapace-sandwich-attack-premium-accrual-protectionpool.md)
+* **Affected Contract**: [ProtectionPool.sol](https://github.com/sherlock-audit/2023-02-carapace/blob/main/contracts/core/pool/ProtectionPool.sol#L279-L354)
 * **Vulnerability Type**: Economic Attack / Sandwich Attack / Share Inflation
 
 ## Summary
