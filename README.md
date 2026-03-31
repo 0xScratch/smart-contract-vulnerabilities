@@ -26,6 +26,7 @@ This repository contains a curated list of known smart contract vulnerabilities 
     - [Oracle](#oracle)
     - [Reentrancy](#reentrancy)
     - [Reorg and Consensus](#reorg-and-consensus)
+    - [Sandwich Attacks](#sandwich-attacks)
     - [Timing](#timing)
     - [Others](#others)
   - [Case Studies](#case-studies)
@@ -246,6 +247,14 @@ Here are the common steps I took in listing these findings:
 | Optimism  | [Loss of Bond Amounts on Re-org Attacks in Fault Dispute Game](/bugs/reorg-and-consensus/optimism-fault-dispute-reorg-bond-loss.md) | Medium  | Sherlock Audits |
 |   Optimism    |   [Incorrect DISPUTED_L2_BLOCK_NUMBER Causes Cross-Game Context Collisions & Invalid VM Outcomes](/bugs/reorg-and-consensus/optimism-uncapped-disputed-l2-block-number-cross-game-vm-context-collision.md)  |   High    |   Code4rena   |
 | Rabbithole  | [Predictable Quest Address via CREATE Opcode - Reorg Attack Vulnerability](/bugs/reorg-and-consensus/rabbithole-predictable-quest-address-reorg-hijack.md)  | Medium  | Code4rena |
+
+---
+
+### Sandwich Attacks
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+| Caraspace | [Sandwich Attack on Premium Accrual in ProtectionPool](/bugs/sandwich-attacks/carapace-sandwich-attack-premium-accrual-protectionpool.md) | High  | Sherlock  |
 
 ---
 
