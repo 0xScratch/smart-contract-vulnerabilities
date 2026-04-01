@@ -153,12 +153,8 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Abracadabra.money | [Deterministic Pool Address Hijack via `tx.origin` on Blast (CREATE2 Collision Under Reorg)](/bugs/frontrunning-and-mev/abracadabra-deterministic-address-hijack-txorigin-blast-reorg.md)   |   Medium  |   Code4rena   |
-|   Blueberry   |   [Blueberry Protocol - Disabled Deadline Enables Stale Swaps & MEV Exploitation](/bugs/frontrunning-and-mev/blueberry-disabled-swap-deadline-stale-tx-mev-exploit.md)    |   High    |   Sherlock Audits |
-|   Derby Finance   |   [On-Chain Slippage Manipulation via Uniswap Quoter in Derby Finance](/bugs/frontrunning-and-mev/derbyfinance-onchain-slippage-manipulation-uniswap-quoter-mev-sandwich.md)   |   High    |   Sherlock Audits |
 |   Ethereum Credit Guild |   [Auction manipulation by block stuffing and reverting on ERC-777 hooks](/bugs/frontrunning-and-mev/ethcreditguild-auction-block-stuffing.md) |   Medium  |   Code4rena   |
 |   EYWA    |   [Transaction DoS via permit() Front-Running in RouterV2](/bugs/frontrunning-and-mev/eywa-permit-front-running-transaction-dos.md)    |   Medium  |   MixBytes    |
-| Geode Finance | [MEV Capture of Operator Incentives via Public Arbitrage on Delayed Unstake](/bugs/frontrunning-and-mev/geodefi-mev-capture-of-operator-unstake-incentives.md)  | Medium  | Consensys (Solodit) |
-|   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/frontrunning-and-mev/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
 |   InitCapital |   [Limit Price Manipulation via Front-Running Allows Theft in Margin Order Filling](/bugs/frontrunning-and-mev/initcapital-limit-price-front-run-margin-order-theft.md)   |   High    |   Code4rena   |
 |   Loop Vaults |   [Incorrect Vesting Interest Calculation Enables MEV Exploitation](/bugs/frontrunning-and-mev/loop-vaults-incorrect-vesting-interest-mev.md)  |   High    |   Pashov Audit Group  |
 |   Notional Finance    |   [Approval Front-Running via Allowance Overwrite in `NoteERC20`](/bugs/frontrunning-and-mev/notional-approval-front-run-allowance-overwrite.md)  |   Medium  |   OpenZeppelin Audit  |
@@ -196,7 +192,6 @@ Here are the common steps I took in listing these findings:
 |   Angle   |   [Invalid Input Validation Leading to Slippage/Token Order Mismatch](/bugs/invalid-validation/angle-transmuter-redeem-token-order-slippage-mismatch.md)  |   Medium  |   Code4rena   |
 | Ekubo | [Partial Fill Allowed in Single-Hop Exact-Out Swaps in Router](/bugs/invalid-validation/ekubo-router-single-hop-exact-out-partial-fill.md)  | Medium  | Code4rena |
 |   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/invalid-validation/goodentry-v3proxy-unchecked-call-return-value.md)    |   Medium  |   Code4rena   |
-| Illuminate  | [User-Controlled AMM Pool Mismatch Enables Theft of Protocol stETH Fees](/bugs/invalid-validation/illuminate-user-controlled-amm-pool-asset-mismatch-steth-fee-theft.md)  | High  | Sherlock  |
 |   Livepeer Protocol   |   [Incorrect Vote Deduction in Livepeer Governance System](/bugs/invalid-validation/livepeer-governor-vote-miscount-delegate-bypass.md)   |   High    |   Code4rena   |
 |   Maia    |   [Cross‑chain DepositNonce Poisoning — `retrieveDeposit()` allows arbitrary nonces to be marked executed](/bugs/invalid-validation/maia-branchbridgeagent-retrievedeposit-depositnonce-poisoning.md) |   High    |   Code4rena   |
 |   Nextgen |   [Double Royalty Payout Due to Faulty Split Logic in NextGen Minter Contract](/bugs/invalid-validation/nextgen-minter-splits-bypass.md)  |   Medium  |   Code4rena   |
@@ -254,7 +249,12 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+|   Blueberry   |   [Blueberry Protocol - Disabled Deadline Enables Stale Swaps & MEV Exploitation](/bugs/frontrunning-and-mev/blueberry-disabled-swap-deadline-stale-tx-mev-exploit.md)    |   High    |   Sherlock Audits |
 | Caraspace | [Sandwich Attack on Premium Accrual in ProtectionPool](/bugs/sandwich-attacks/carapace-sandwich-attack-premium-accrual-protectionpool.md) | High  | Sherlock  |
+|   Derby Finance   |   [On-Chain Slippage Manipulation via Uniswap Quoter in Derby Finance](/bugs/frontrunning-and-mev/derbyfinance-onchain-slippage-manipulation-uniswap-quoter-mev-sandwich.md)   |   High    |   Sherlock Audits |
+| Geode Finance | [MEV Capture of Operator Incentives via Public Arbitrage on Delayed Unstake](/bugs/frontrunning-and-mev/geodefi-mev-capture-of-operator-unstake-incentives.md)  | Medium  | Consensys (Solodit) |
+|   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/frontrunning-and-mev/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
+| Illuminate  | [User-Controlled AMM Pool Mismatch Enables Theft of Protocol stETH Fees](/bugs/invalid-validation/illuminate-user-controlled-amm-pool-asset-mismatch-steth-fee-theft.md)  | High  | Sherlock  |
 
 ---
 
