@@ -255,6 +255,7 @@ Here are the common steps I took in listing these findings:
 | Geode Finance | [MEV Capture of Operator Incentives via Public Arbitrage on Delayed Unstake](/bugs/frontrunning-and-mev/geodefi-mev-capture-of-operator-unstake-incentives.md)  | Medium  | Consensys (Solodit) |
 |   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/frontrunning-and-mev/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
 | Illuminate  | [User-Controlled AMM Pool Mismatch Enables Theft of Protocol stETH Fees](/bugs/invalid-validation/illuminate-user-controlled-amm-pool-asset-mismatch-steth-fee-theft.md)  | High  | Sherlock  |
+| Olympus | [Oracle Sandwich Attack on BLVaultLido Withdraw Logic](/bugs/sandwich-attacks/olympus-blvaultlido-oracle-sandwich-withdraw-exploit.md)  | High  | Sherlock  |
 
 ---
 
