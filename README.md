@@ -191,6 +191,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Angle   |   [Invalid Input Validation Leading to Slippage/Token Order Mismatch](/bugs/invalid-validation/angle-transmuter-redeem-token-order-slippage-mismatch.md)  |   Medium  |   Code4rena   |
+| Debt DAO  | [Revenue Split Bypass via Unregistered Revenue Contract in Spigot](/bugs/invalid-validation/debtdao-unregistered-revenuecontract-bypass-revenue-split-spigotlib.md) | High  | Code4rena |
 | Ekubo | [Partial Fill Allowed in Single-Hop Exact-Out Swaps in Router](/bugs/invalid-validation/ekubo-router-single-hop-exact-out-partial-fill.md)  | Medium  | Code4rena |
 |   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/invalid-validation/goodentry-v3proxy-unchecked-call-return-value.md)    |   Medium  |   Code4rena   |
 |   Livepeer Protocol   |   [Incorrect Vote Deduction in Livepeer Governance System](/bugs/invalid-validation/livepeer-governor-vote-miscount-delegate-bypass.md)   |   High    |   Code4rena   |
