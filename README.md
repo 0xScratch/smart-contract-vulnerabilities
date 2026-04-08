@@ -67,6 +67,7 @@ Here are the common steps I took in listing these findings:
 |   Alchemix    |   [Unauthorized Reward Token Injection via `notifyRewardAmount` in Alchemix Bribe Contract](/bugs/access-control/alchemix-unauthorized-reward-token-injection-access-control-bypass.md)   |   Medium  |   Immunefi    |
 |   BakerFi     |   [Arbitrary `originalAmount` in Flash Loan Data Allows Logic Manipulation](/bugs/access-control/bakerfi-flashloandata-callback-unvalidated-param.md) |   Medium  |   Code4rena   |
 | Blueberry | [Liquidation Enabled While Repay Disabled Leading to Forced Loss of Funds](/bugs/access-control/blueberry-repay-disabled-liquidation-still-enabled.md)  | Medium  | Sherlock  |
+| Centrifuge  | [Cross‑Chain Execute DoS via Over‑Restrictive Origin Check in Axelar Router](/bugs/access-control/centrifuge-axelar-router-execute-dos.md)  | Medium  | Code4rena |
 |   Escher  |   [Sale Finalization Failure Due to Deprecated `selfdestruct` Semantics in Escher FixedPrice & OpenEdition](/bugs/access-control/escher-sale-not-finalized-due-to-selfdestruct-semantics-change.md)   |   Medium  |   Code4rena   |
 |   Karak   |   [Unslashable NativeVault via Unvalidated `extraData` and Unrestricted Manager Upgrade](/bugs/access-control/karak-nativevault-unslashable-vault-manager-upgrade.md) |   High    |   Code4rena  |
 | MonoX | [Unauthorized Pool Price Manipulation via Missing Access Control in Monoswap](/bugs/access-control/monox-unauthorized-pool-price-update-access-control.md)  | High  | Solodit (Halborn) |
