@@ -88,6 +88,7 @@ Here are the common steps I took in listing these findings:
 |   Arcade  |   [Incorrect `gscAllowance` Accounting & ERC20 Allowance Overwrite Risk in ArcadeTreasury](/bugs/business-logic-flaw/arcade-gscAllowance-erc20-allowance-overwrite.md)    |   Medium  |   Code4rena   |
 |   Badger  |   [Redemption Drains Healthy CDPs → System-Wide Under-Collateralization](/bugs/business-logic-flaw/badger-redemption-healthy-cdp-drain.md)    |   Medium  |   Code4rena   |
 |   Canto   |   [Epoch Boundary Reward Inflation via Misaligned `nextEpoch` Calculation in `update_market`](/bugs/business-logic-flaw/canto-epoch-reward-inflation.md)  |   High    |   Code4rena   |
+| Caraspace | [Sybil Withdrawal Requests Enable Leverage Manipulation via Flashloans](/bugs/business-logic-flaw/carapace-Sybil-Withdraw-Leverage-Manipulation.md) | High  | Sherlock  |
 | Ekubo | [TWAMM Instant Orders Can Steal Historical Rewards via Start-Time Boundary Bug](/bugs/business-logic-flaw/ekubo-twamm-instant-order-starttime-reward-inflation.md)  | Medium  | Code4rena |
 | Fractional  | [Fractional — Missing ERC2981 Interface Declaration Breaks Royalty Detection](/bugs/business-logic-flaw/fractional-missing-erc2981-interface-royalty-break.md)  | Medium  | Code4rena |
 |   Init Capital    |   [ReturnNative Flag Ignored in Withdraw Flow of MoneyMarketHook](/bugs/business-logic-flaw/initcapital-returnnative-ignored-withdraw.md) |   Medium  |   Code4rena   |
