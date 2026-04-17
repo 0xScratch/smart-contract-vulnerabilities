@@ -106,6 +106,7 @@ Here are the common steps I took in listing these findings:
 |   Size    |   [Incremental Compensation Blocked by Strict CR Check in `compensate()`](/bugs/business-logic-flaw/size-compensate-strict-collateral-ratio-check.md) |   Medium  |   Code4rena   |
 |   Stader  |   [Consensus Stall via Strict Equality in StaderOracle Submissions](/bugs/business-logic-flaw/stader-oracle-consensus-stall.md) |   Medium  |   Code4rena|
 |   Tapioca |   [Incorrect Share-to-Fraction Calculation Due to Inconsistent Rounding in MagnetarHelper](/bugs/business-logic-flaw/tapioca-withdraw-helper-rounding-mismatch.md)    |   Medium  |   Code4rena   |
+| Union Finance | [Reward Multiplier Bypass via `lastUpdated` Reset on Repetitive Borrow](/bugs/business-logic-flaw/unionfinance-reward-multiplier-bypass-via-lastupdated-reset.md) | High  | Sherlock  |
 |   Verwa   |   [Extra Gauge Weight via Front-Running Governance Overrides in GaugeController](/bugs/business-logic-flaw/verwa-gauge-weight-front-run-exploit.md)   |   Medium  |   Code4rena   |
 |   Verwa   |   [Replay Attack in Gauge Voting via Delegation Abuse](/bugs/business-logic-flaw/verwa-gaugecontroller-voting-power-replay-via-delegation.md) |   High    |   Code4rena   |
 
