@@ -283,6 +283,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| Maia  | [Spot Price Manipulation via `slot0()` Leading to MEV Sandwich Losses in RootBridgeAgent](/bugs/oracle/maia-spot-price-manipulation-mev-sandwich-attack-rootbridgeagent.md) | High  | Code4rena |  
 | Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
 | Real wagmi  | [No Slippage Protection During Repayment via slot0() Price Manipulation](/bugs/oracle/realwagmi-repay-no-slippage-protection-slot0-manipulation-frontrun.md)  | High  | Sherlock  |
 | Renzo | [Global Price Feed DoS via CCIP Message Revert in Price Receiver](/bugs/oracle/renzo-ccip-pricefeed-queue-dos.md) | Medium  | Code4rena |
