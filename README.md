@@ -199,6 +199,7 @@ Here are the common steps I took in listing these findings:
 | Debt DAO  | [Revenue Split Bypass via Unregistered Revenue Contract in Spigot](/bugs/invalid-validation/debtdao-unregistered-revenuecontract-bypass-revenue-split-spigotlib.md) | High  | Code4rena |
 | Ekubo | [Partial Fill Allowed in Single-Hop Exact-Out Swaps in Router](/bugs/invalid-validation/ekubo-router-single-hop-exact-out-partial-fill.md)  | Medium  | Code4rena |
 |   Goodentry   |   [Unchecked Call Return Value in ETH Transfers](/bugs/invalid-validation/goodentry-v3proxy-unchecked-call-return-value.md)    |   Medium  |   Code4rena   |
+| Infinity  | [Interface Confusion Leads to Under-Transfer of NFTs in Hybrid ERC721/ERC1155 Collections](/bugs/invalid-validation/infinity-interface-confusion-erc721-erc1155-under-transfer.md)  | High  | Code4rena |
 |   Livepeer Protocol   |   [Incorrect Vote Deduction in Livepeer Governance System](/bugs/invalid-validation/livepeer-governor-vote-miscount-delegate-bypass.md)   |   High    |   Code4rena   |
 |   Maia    |   [Cross‑chain DepositNonce Poisoning — `retrieveDeposit()` allows arbitrary nonces to be marked executed](/bugs/invalid-validation/maia-branchbridgeagent-retrievedeposit-depositnonce-poisoning.md) |   High    |   Code4rena   |
 |   Nextgen |   [Double Royalty Payout Due to Faulty Split Logic in NextGen Minter Contract](/bugs/invalid-validation/nextgen-minter-splits-bypass.md)  |   Medium  |   Code4rena   |
