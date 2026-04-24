@@ -206,6 +206,7 @@ Here are the common steps I took in listing these findings:
 |   Nextgen |   [Double Royalty Payout Due to Faulty Split Logic in NextGen Minter Contract](/bugs/invalid-validation/nextgen-minter-splits-bypass.md)  |   Medium  |   Code4rena   |
 |   Olympus |   [Oracle-Based Post-Exit Skim Nullifies User Slippage Protection in `BLVaultLido`](/bugs/invalid-validation/olympus-post-exit-oracle-skim-slippage-bypass.md)    |   High    |   Sherlock Audit  |
 |   Panoptic    |   [Duplicate TokenId fingerprint collision → solvency bypass in `PanopticPool.sol`](/bugs/invalid-validation/panoptic-collateral-accounting-position-duplication-insolvency-bypass.md)    |   Medium  |   Code4rena   |
+| Primitive | [Unchecked Type Conversion in `addSignedDelta` Leads to Liquidity Inflation & Fund Theft](/bugs/invalid-validation/primitive-addSignedDelta-unchecked-type-conversion-liquidity-inflation.md) | High  | Trail Of Bits (Solodit) |
 |   Lindy Labs Sandlock |   [Flash-Loan Fee Ignorance Leading to Rebalance & Withdraw DoS in Sandclock Vaults](/bugs/invalid-validation/sandclock-flashloan-fees-ignored-withdraw-dos.md)   |   High    |   Solodit |
 |   Venus   |   [Fragile Liquidation Check in `Comptroller.sol` — Zero Borrow Balance Requirement](/bugs/invalid-validation/venus-comptroller-liquidation-zero-balance.md)  |   Medium  |   Code4rena   |
 
