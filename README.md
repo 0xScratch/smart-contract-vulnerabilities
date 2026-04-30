@@ -161,6 +161,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   Abracadabra.money | [Deterministic Pool Address Hijack via `tx.origin` on Blast (CREATE2 Collision Under Reorg)](/bugs/frontrunning-and-mev/abracadabra-deterministic-address-hijack-txorigin-blast-reorg.md)   |   Medium  |   Code4rena   |
+| Ajna  | [CryptoPunks Deposit Frontrunning Leading to NFT Theft](/bugs/frontrunning-and-mev/ajna-cryptopunks-deposit-frontrun-nft-theft.md)  | High  | Sherlock  |
 |   Ethereum Credit Guild |   [Auction manipulation by block stuffing and reverting on ERC-777 hooks](/bugs/frontrunning-and-mev/ethcreditguild-auction-block-stuffing.md) |   Medium  |   Code4rena   |
 |   EYWA    |   [Transaction DoS via permit() Front-Running in RouterV2](/bugs/frontrunning-and-mev/eywa-permit-front-running-transaction-dos.md)    |   Medium  |   MixBytes    |
 |   InitCapital |   [Limit Price Manipulation via Front-Running Allows Theft in Margin Order Filling](/bugs/frontrunning-and-mev/initcapital-limit-price-front-run-margin-order-theft.md)   |   High    |   Code4rena   |
