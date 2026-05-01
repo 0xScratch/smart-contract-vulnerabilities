@@ -73,6 +73,7 @@ Here are the common steps I took in listing these findings:
 |   Escher  |   [Sale Finalization Failure Due to Deprecated `selfdestruct` Semantics in Escher FixedPrice & OpenEdition](/bugs/access-control/escher-sale-not-finalized-due-to-selfdestruct-semantics-change.md)   |   Medium  |   Code4rena   |
 |   Karak   |   [Unslashable NativeVault via Unvalidated `extraData` and Unrestricted Manager Upgrade](/bugs/access-control/karak-nativevault-unslashable-vault-manager-upgrade.md) |   High    |   Code4rena  |
 | MonoX | [Unauthorized Pool Price Manipulation via Missing Access Control in Monoswap](/bugs/access-control/monox-unauthorized-pool-price-update-access-control.md)  | High  | Solodit (Halborn) |
+| Paraspace | [Approval Hijack via Missing Ownership Validation in WPunkGateway](/bugs/access-control/paraspace-wpunkgateway-front-run-approval-hijack.md)  | High  | Code4rena |
 | Skale | [Admin-Controlled Token Address Allows Infinite Mint → Bridge Drain](/bugs/access-control/skale-tokenmanager-admin-arbitrary-token-replacement-bridge-drain.md) | Medium  | Code4rena
 | Stader  | [Ghost Pausable: Contracts Inherit PausableUpgradeable but Cannot Be Paused](/bugs/access-control/stader-missing-external-pause-unpause-ghost-pausable.md)  | Medium  | Code4rena |
 |   Stader  |   [Loss of Admin via Self-Assignment in `updateAdmin` (Role Revocation Bug)](/bugs/access-control/stader-staderconfig-updateadmin-same-address-access-loss.md)    |   Medium  |   Code4rena   |
