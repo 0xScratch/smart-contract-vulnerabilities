@@ -144,6 +144,7 @@ Here are the common steps I took in listing these findings:
 |   Revolution Protocol |   [DoS via Gas-Intensive NFT Minting Failing AuctionHouse's Auction Creation](/bugs/denial-of-service/revolution-protocol-auctionhouse-gas-intensive-nft-minting.md)  |   Medium  |   Code4rena   |
 |   Taiko   |   [Denial of Service via Permissioned Genesis Block](/bugs/denial-of-service/taiko-permissioned-genesis-block-dos.md) |   Medium  |   Code4rena   |
 | UXD | [Cross-Chain Channel DoS via Oversized Payload in OFTCore](/bugs/denial-of-service/uxd-oversized-payload-cross-chain-queue-dos-oftcore.md)  | High  | Sherlock  |
+| Winnable Raffles  | [Unbounded `ownerOf()` Lookup Can Permanently DoS Raffle Winner Resolution](/bugs/denial-of-service/winnablesraffles-unbounded-ownerof-lookup-causes-winner-selection-dos.md) | Medium  | Sherlock  |
 
 ---
 
