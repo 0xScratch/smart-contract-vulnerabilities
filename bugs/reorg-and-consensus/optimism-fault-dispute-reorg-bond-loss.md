@@ -1,7 +1,7 @@
 # Loss of Bond Amounts on Re-org Attacks in Fault Dispute Game
 
 * **Severity**: Medium
-* **Source**: [Sherlock Audits](https://github.com/sherlock-audit/2024-02-optimism-2024-judging/issues/201/#issuecomment-2075436915)
+* **Source**: [Sherlock Audits](https://github.com/sherlock-audit/2024-02-optimism-2024-judging/issues/201)
 * **Affected Contract**: [`FaultDisputeGame.sol`](https://github.com/sherlock-audit/2024-02-optimism-2024/blob/main/optimism/packages/contracts-bedrock/src/dispute/FaultDisputeGame.sol)
 * **Vulnerability Type**: Blockchain Re-org Exploit / State Inconsistency / Bond Theft
 
