@@ -267,12 +267,12 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
-|   Blueberry   |   [Blueberry Protocol - Disabled Deadline Enables Stale Swaps & MEV Exploitation](/bugs/frontrunning-and-mev/blueberry-disabled-swap-deadline-stale-tx-mev-exploit.md)    |   High    |   Sherlock Audits |
+|   Blueberry   |   [Blueberry Protocol - Disabled Deadline Enables Stale Swaps & MEV Exploitation](/bugs/sandwich-attacks/blueberry-disabled-swap-deadline-stale-tx-mev-exploit.md)    |   High    |   Sherlock Audits |
 | Caraspace | [Sandwich Attack on Premium Accrual in ProtectionPool](/bugs/sandwich-attacks/carapace-sandwich-attack-premium-accrual-protectionpool.md) | High  | Sherlock  |
-|   Derby Finance   |   [On-Chain Slippage Manipulation via Uniswap Quoter in Derby Finance](/bugs/frontrunning-and-mev/derbyfinance-onchain-slippage-manipulation-uniswap-quoter-mev-sandwich.md)   |   High    |   Sherlock Audits |
-| Geode Finance | [MEV Capture of Operator Incentives via Public Arbitrage on Delayed Unstake](/bugs/frontrunning-and-mev/geodefi-mev-capture-of-operator-unstake-incentives.md)  | Medium  | Consensys (Solodit) |
-|   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/frontrunning-and-mev/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
-| Illuminate  | [User-Controlled AMM Pool Mismatch Enables Theft of Protocol stETH Fees](/bugs/invalid-validation/illuminate-user-controlled-amm-pool-asset-mismatch-steth-fee-theft.md)  | High  | Sherlock  |
+|   Derby Finance   |   [On-Chain Slippage Manipulation via Uniswap Quoter in Derby Finance](/bugs/sandwich-attacks/derbyfinance-onchain-slippage-manipulation-uniswap-quoter-mev-sandwich.md)   |   High    |   Sherlock Audits |
+| Geode Finance | [MEV Capture of Operator Incentives via Public Arbitrage on Delayed Unstake](/bugs/sandwich-attacks/geodefi-mev-capture-of-operator-unstake-incentives.md)  | Medium  | Consensys (Solodit) |
+|   HyperBloom  |   [Sandwich-Driven Liquidity Mint Manipulation via Calm-Period Bypass in Passive Strategy Manager](/bugs/sandwich-attacks/hyperbloom-calmperiod-bypass-sandwich-liquidity-mint.md)    |   Medium  |   Pashov Audit Group  |
+| Illuminate  | [User-Controlled AMM Pool Mismatch Enables Theft of Protocol stETH Fees](/bugs/sandwich-attacks/illuminate-user-controlled-amm-pool-asset-mismatch-steth-fee-theft.md)  | High  | Sherlock  |
 | Olympus | [Oracle Sandwich Attack on BLVaultLido Withdraw Logic](/bugs/sandwich-attacks/olympus-blvaultlido-oracle-sandwich-withdraw-exploit.md)  | High  | Sherlock  |
 
 ---
