@@ -284,6 +284,7 @@ Here are the common steps I took in listing these findings:
 | Backd | [Inflation Schedule Corruption via Premature `executeInflationRateUpdate` Call](/bugs/timing/backd-uninitialized-inflation-timestamp-premature-update-minter.md)  | High  | Code4rena |
 |   Basin   |   [Immutable BLOCK_TIME Parameter Cause Oracle Flaws](/bugs/timing/basin-block-time-assumption.md)    |   Medium  |   Code4rena   |
 |   Frankencoin |   [Inaccurate Holding Duration on Optimism Due to `block.number` Usage in `Equity.sol`](/bugs/timing/frankencoin-equity-blocknumber-time-bug.md)    |   Medium  |   Code4rena   |
+| Intuition | [Epoch-Boundary Checkpoints Retroactively Qualify for Previous Epoch Rewards](/bugs/timing/intuition-epoch-boundary-checkpoints-retroactively-qualify-for-previous-epoch-rewards.md)  | Medium  | Code4rena |
 |   Karak   |   [Unfair Withdrawal Slashing During Veto Window in Karak Vaults](/bugs/timing/karak-withdraw-slash-mismatch.md)  |   Medium  |   Code4rena   |
 |   Renzo   |   [L1→L2 Price Update Reverts Due to Cross-Chain Timestamp Mismatch](/bugs/timing/renzoprotocol-l1-l2-timestamp-mismatch-priceupdate-revert.md)   |   Medium    |   Code4rena   |
 |   Verwa   |   [Permanent Lock via Expired-Lock Undelegation Restriction in VotingEscrow](/bugs/timing/verwa-permanent-lock-expired-undelegation.md)   |   High    |   Code4rena   |
