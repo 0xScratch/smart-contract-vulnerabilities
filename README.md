@@ -302,6 +302,7 @@ Here are the common steps I took in listing these findings:
 | Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
 | Real wagmi  | [No Slippage Protection During Repayment via slot0() Price Manipulation](/bugs/oracle/realwagmi-repay-no-slippage-protection-slot0-manipulation-frontrun.md)  | High  | Sherlock  |
 | Renzo | [Global Price Feed DoS via CCIP Message Revert in Price Receiver](/bugs/oracle/renzo-ccip-pricefeed-queue-dos.md) | Medium  | Code4rena |
+| Salty.IO  | [Manipulatable Spot Oracle Causes False Liquidations During Oracle Divergence](/bugs/oracle/salty-manipulatable-spot-oracle-causes-false-liquidations.md) | High  | Code4rena |
 
 ---
 
