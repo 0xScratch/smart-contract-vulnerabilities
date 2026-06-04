@@ -71,6 +71,7 @@ Here are the common steps I took in listing these findings:
 | Caviar  | [Unrestricted NFT Unwrap Enables Free Swaps & Airdrop Theft](/bugs/access-control/caviar-nft-free-swap-airdrop-theft-via-unrestricted-unwrap.md)  | Medium  | Code4rena |
 |  Covalent  |  [Missing Owner Initialization via Incorrect Ownable Usage in Upgradeable Contract](/bugs/access-control/covalent-missing-owner-initialization-upgradeable-ownable.md)  |  High  |  Code4rena  | 
 |   Escher  |   [Sale Finalization Failure Due to Deprecated `selfdestruct` Semantics in Escher FixedPrice & OpenEdition](/bugs/access-control/escher-sale-not-finalized-due-to-selfdestruct-semantics-change.md)   |   Medium  |   Code4rena   |
+| Harpie  | [Cross-Chain Signature Replay in `changeRecipientAddress`](/bugs/access-control/harpie-cross-chain-signature-replay-changeRecipientAddress.md)  | Medium  | Sherlock  |
 |   Karak   |   [Unslashable NativeVault via Unvalidated `extraData` and Unrestricted Manager Upgrade](/bugs/access-control/karak-nativevault-unslashable-vault-manager-upgrade.md) |   High    |   Code4rena  |
 | MonoX | [Unauthorized Pool Price Manipulation via Missing Access Control in Monoswap](/bugs/access-control/monox-unauthorized-pool-price-update-access-control.md)  | High  | Solodit (Halborn) |
 | Paraspace | [Approval Hijack via Missing Ownership Validation in WPunkGateway](/bugs/access-control/paraspace-wpunkgateway-front-run-approval-hijack.md)  | High  | Code4rena |
