@@ -126,6 +126,7 @@ Here are the common steps I took in listing these findings:
 |   Autonolas   |   [Global Withdraw DoS via Zero‑Liquidity Position in Liquidity Lockbox](/bugs/denial-of-service/autonolas-liquidity-lockbox-zero-liquidity.md)   |   High    |   Code4rena   |
 |   Axelar  |   [Denial-of-Service via Flow-Limit Exhaustion in Axelar TokenManager](/bugs/denial-of-service/axelar-tokenmanager-flow-limit-exhaustion.md)  |   Medium  |   Code4rena   |
 |   Basin   |   [Cheap DoS via Zero-Fee TWAP Manipulation in Basin](/bugs/denial-of-service/basin-well-zero-fee-slippage.md)    |   Medium  |   Code4rena   |
+| Chainlink Payment Abstraction V2 |  [Dust Partial Fills Can Self-Invalidate Remaining CoW Orders Until Workflow Refresh](/bugs/denial-of-service/chainlink-partial-cow-fill-self-invalidates-order-dos.md)  | Medium  | Code4rena |
 | Chainlink Payment Abstraction V2 |  [Stale CRE Report Can Prematurely Terminate a New Auction Instance](/bugs/denial-of-service/chainlink-stale-cre-report-premature-auction-termination.md) | Medium  |  Code4rena |
 |   Delegate    |   [Nonce Desynchronization Leading to Denial of Service in `CreateOfferer.sol`](/bugs/denial-of-service/delegate-createofferer-nonce-desync-dos.md)   |   Medium  |   Code4rena   |
 | Ekubo | [Cumulative Rounding Refund Error in TWAMM Leads to Pool-Wide DoS and Value Leakage](/bugs/denial-of-service/ekubo-twamm-rounding-error-cumulative-refund-dos.md) | Medium  | Code4rena |
