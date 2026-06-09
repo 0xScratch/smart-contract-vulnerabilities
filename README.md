@@ -289,6 +289,7 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|
 | Backd | [Inflation Schedule Corruption via Premature `executeInflationRateUpdate` Call](/bugs/timing/backd-uninitialized-inflation-timestamp-premature-update-minter.md)  | High  | Code4rena |
 |   Basin   |   [Immutable BLOCK_TIME Parameter Cause Oracle Flaws](/bugs/timing/basin-block-time-assumption.md)    |   Medium  |   Code4rena   |
+| Chainlink Payment Abstraction V2  | [Auction Price Continues Decaying During Pause, Giving First Post-Unpause Bidder an Unearned Discount](/bugs/timing/chainlink-payment-abstraction-v2-auction-price-decay-during-pause.md) | Medium  | Code4rena |
 |   Frankencoin |   [Inaccurate Holding Duration on Optimism Due to `block.number` Usage in `Equity.sol`](/bugs/timing/frankencoin-equity-blocknumber-time-bug.md)    |   Medium  |   Code4rena   |
 | Intuition | [Epoch-Boundary Checkpoints Retroactively Qualify for Previous Epoch Rewards](/bugs/timing/intuition-epoch-boundary-checkpoints-retroactively-qualify-for-previous-epoch-rewards.md)  | Medium  | Code4rena |
 |   Karak   |   [Unfair Withdrawal Slashing During Veto Window in Karak Vaults](/bugs/timing/karak-withdraw-slash-mismatch.md)  |   Medium  |   Code4rena   |
