@@ -303,6 +303,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| Jojo  | [Shared Heartbeat Misconfiguration Across Chainlink Feeds Causes Oracle Downtime or Stale Price Acceptance](/bugs/oracle/jojo-shared-heartbeat-misconfiguration-allows-stale-oracle-data-or-causes-downtime.md) | Medium  | Sherlock  |
 | Maia  | [Spot Price Manipulation via `slot0()` Leading to MEV Sandwich Losses in RootBridgeAgent](/bugs/oracle/maia-spot-price-manipulation-mev-sandwich-attack-rootbridgeagent.md) | High  | Code4rena |  
 | Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
 | Real wagmi  | [No Slippage Protection During Repayment via slot0() Price Manipulation](/bugs/oracle/realwagmi-repay-no-slippage-protection-slot0-manipulation-frontrun.md)  | High  | Sherlock  |
