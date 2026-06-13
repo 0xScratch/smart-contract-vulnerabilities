@@ -303,6 +303,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| Blueberry | [ICHI LP Tokens Cannot Be Priced, Causing Global Position Opening DoS](/bugs/oracle/blueberry-ichi-lp-oracle-unpriceable-collateral-dos.md)  | Medium  | Sherlock |
 | Jojo  | [Shared Heartbeat Misconfiguration Across Chainlink Feeds Causes Oracle Downtime or Stale Price Acceptance](/bugs/oracle/jojo-shared-heartbeat-misconfiguration-allows-stale-oracle-data-or-causes-downtime.md) | Medium  | Sherlock  |
 | Maia  | [Spot Price Manipulation via `slot0()` Leading to MEV Sandwich Losses in RootBridgeAgent](/bugs/oracle/maia-spot-price-manipulation-mev-sandwich-attack-rootbridgeagent.md) | High  | Code4rena |  
 | Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
