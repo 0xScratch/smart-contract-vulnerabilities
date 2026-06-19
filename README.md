@@ -317,6 +317,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Type    |   Severity  | Source  |
 |---------------|-------------------|---------------|-----------|-----------|
+| 0xExchange  | [Authentication Bypass via Stale Memory in Wallet Signature Verification](/bugs/other/0xexchange-authentication-bypass-stale-memory-zerox-wallet-signature.md)  | Authentication Bypass / Signature Forgery / Uninitialized Memory Usage / Unsafe Low-Level Call Handling | Critical  | samczun blog  |
 |   Cap |   [Missing Slippage Protection in Liquidation Allows Unexpected Collateral Loss](/bugs/other/cap-missing-slippage-protection.md)  |   Missing Slippage Protection / Value Mismatch in Liquidation |   Medium  |   Sherlock    |
 | Ekubo | [Oracle Data Corruption via Storage Key Collision in Ekubo Oracle](/bugs/other/ekubo-oracle-storage-key-collision-data-corruption.md) | Storage Collision / Data Corruption / Oracle Integrity Failure  | Medium  | Code4rena |
 | Fractional  | [Delegatecall Reinitialization via Nonce Reset in Vault](/bugs/other/fractional-vault-delegatecall-reinitialization-ownership-takeover.md)  | Delegatecall Storage Corruption / Ownership Takeover / Re-Initialization Attack | Medium  | Code4rena |
