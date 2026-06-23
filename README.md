@@ -311,6 +311,7 @@ Here are the common steps I took in listing these findings:
 | Real wagmi  | [No Slippage Protection During Repayment via slot0() Price Manipulation](/bugs/oracle/realwagmi-repay-no-slippage-protection-slot0-manipulation-frontrun.md)  | High  | Sherlock  |
 | Renzo | [Global Price Feed DoS via CCIP Message Revert in Price Receiver](/bugs/oracle/renzo-ccip-pricefeed-queue-dos.md) | Medium  | Code4rena |
 | Salty.IO  | [Manipulatable Spot Oracle Causes False Liquidations During Oracle Divergence](/bugs/oracle/salty-manipulatable-spot-oracle-causes-false-liquidations.md) | High  | Code4rena |
+| USSD  | [Bad Debt Accumulation via WBTC Depeg Oracle Assumption](/bugs/oracle/ussd-wbtc-depeg-oracle-assumption-bad-debt.md)  | Medium  | Sherlock  |
 
 ---
 
