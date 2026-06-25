@@ -305,6 +305,7 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|
 | Blueberry | [Frozen Liquidations via Oracle Failure or Zero-Price Assets](/bugs/oracle/frozen-liquidations-via-oracle-failure.md) | Medium  | Sherlock  |
 | Blueberry | [ICHI LP Tokens Cannot Be Priced, Causing Global Position Opening DoS](/bugs/oracle/blueberry-ichi-lp-oracle-unpriceable-collateral-dos.md)  | Medium  | Sherlock |
+| Ironbank  | [Incorrect Collateral Valuation due to Chainlink Circuit Breaker Price Bounds](/bugs/oracle/ironbank-chainlink-circuit-breaker-price-bound-oracle-vulnerability.md) | Medium  | Sherlock  |
 | Jojo  | [Shared Heartbeat Misconfiguration Across Chainlink Feeds Causes Oracle Downtime or Stale Price Acceptance](/bugs/oracle/jojo-shared-heartbeat-misconfiguration-allows-stale-oracle-data-or-causes-downtime.md) | Medium  | Sherlock  |
 | Maia  | [Spot Price Manipulation via `slot0()` Leading to MEV Sandwich Losses in RootBridgeAgent](/bugs/oracle/maia-spot-price-manipulation-mev-sandwich-attack-rootbridgeagent.md) | High  | Code4rena |  
 | Notional  | [Rely On Balancer Oracle Which Is Not Updated Frequently](/bugs/oracle/notional-stale-balancer-twap-oracle-price-risk-metastable2-vault.md) | Medium  | Sherlock  |
