@@ -201,6 +201,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 |   AI Arena    |   [NFT Attribute Manipulation via onERC721Received Hook Revert](/bugs/insecure-randomness/ai-arena-fighter-farm-revert-to-reroll.md)  |   Medium  |   Code4rena   |
+| Wenwin  | [Off-by-One Timestamp Validation Allows Post-Draw Ticket Purchase](/bugs/insecure-randomness/wenwin-off-by-one-timestamp-validation-allows-post-draw-ticket-purchase.md)  | Medium  | Code4rena |
 
 ---
 
