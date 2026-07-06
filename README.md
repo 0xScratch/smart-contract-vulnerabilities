@@ -225,6 +225,7 @@ Here are the common steps I took in listing these findings:
 | Primitive | [Unchecked Type Conversion in `addSignedDelta` Leads to Liquidity Inflation & Fund Theft](/bugs/invalid-validation/primitive-addSignedDelta-unchecked-type-conversion-liquidity-inflation.md) | High  | Trail Of Bits (Solodit) |
 |   Lindy Labs Sandlock |   [Flash-Loan Fee Ignorance Leading to Rebalance & Withdraw DoS in Sandclock Vaults](/bugs/invalid-validation/sandclock-flashloan-fees-ignored-withdraw-dos.md)   |   High    |   Solodit |
 |   Venus   |   [Fragile Liquidation Check in `Comptroller.sol` — Zero Borrow Balance Requirement](/bugs/invalid-validation/venus-comptroller-liquidation-zero-balance.md)  |   Medium  |   Code4rena   |
+| Wildcat | [Fixed-Term Lenders Rugged via APR Reduction During Active Loan Term](/bugs/invalid-validation/wildcat-fixed-term-apr-reduction-rug.md) | Medium  | Code4rena |
 
 ---
 
