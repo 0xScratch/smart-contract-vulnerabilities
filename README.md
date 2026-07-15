@@ -139,6 +139,7 @@ Here are the common steps I took in listing these findings:
 |   Livepeer Protocol   |   [Fully Slashed Transcoder Vote Override Denial of Service Vulnerability](/bugs/denial-of-service/livepeer-slashed-transcoder-zero-weight-vote-disruption.md)    |   Medium  |   Code4rena   |
 | Notional  | [ERC20 Non-Zero Allowance Approval DoS in Vault Operations](/bugs/denial-of-service/notional-erc20-nonzero-allowance-approval-dos.md) | Medium  | Sherlock  |
 | Nudge.xyz | [DoS on Reallocation Processing via Privileged Executor Role Revocation](/bugs/denial-of-service/nudge-dos-reallocation-executor-role-revocation.md)  | Medium  | Code4rena |
+| Olas  | [Service NFT Unstake DoS via Reward Token Blocklist or Pause](/bugs/denial-of-service/olas-service-nft-unstake-dos-via-reward-token-blocklist.md) | Medium  | Code4rena |
 |   Phi |   [Griefing via Forced Share Lock Extension in Phi Protocol](/bugs/denial-of-service/phi-griefing-sharelock-bypass-via-buyShareCredFor.md)    |   Medium  |   Code4rena   |
 |   PoolTogether    |   [Prize Tier Manipulation via Single Claim Controlling `largestTierClaimed`](/bugs/denial-of-service/pooltogether-prize-tier-manipulation.md)    |   Medium  |   Code4rena   |
 |   Putty   |   [Global Withdraw DoS via Fee Transfer Revert in PuttyV2](/bugs/denial-of-service/putty-global-withdraw-dos-fee-transfer-revert.md)  |   Medium  |   Code4rena   |
