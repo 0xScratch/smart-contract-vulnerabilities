@@ -17,6 +17,7 @@ This repository contains a curated list of known smart contract vulnerabilities 
     - [Access Control](#access-control)
     - [Business Logic Flaw](#business-logic-flaw)
     - [Denial of Service](#denial-of-service)
+    - [Economic Design/Manipulation](#economic-designmanipulation)
     - [External Call](#external-call)
     - [Front Running/MEV](#front-runningmev)
     - [Governance](#governance)
@@ -155,6 +156,7 @@ Here are the common steps I took in listing these findings:
 
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
+| Ditto Eth | [Redemption Fee Inflation via Disputed Redemption Proposals](/bugs/economic-design/dittoeth-redemption-fee-inflation-via-disputed-proposals.md) | High  | Code4rena |
 | Pool Together | [Shared VRGDA Decay Constant Causes Smaller Prize Tier Auctions to Reach Maximum Fees Prematurely](/bugs/economic-design/pooltogether-shared-vrgda-decay-constant-inefficient-tier-auctions.md) | Medium  | Code4rena |
 
 ---
@@ -333,7 +335,6 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|-----------|
 | 0xExchange  | [Authentication Bypass via Stale Memory in Wallet Signature Verification](/bugs/other/0xexchange-authentication-bypass-stale-memory-zerox-wallet-signature.md)  | Authentication Bypass / Signature Forgery / Uninitialized Memory Usage / Unsafe Low-Level Call Handling | Critical  | samczun blog  |
 |   Cap |   [Missing Slippage Protection in Liquidation Allows Unexpected Collateral Loss](/bugs/other/cap-missing-slippage-protection.md)  |   Missing Slippage Protection / Value Mismatch in Liquidation |   Medium  |   Sherlock    |
-| DittoEth  | [Redemption Fee Inflation via Disputed Redemption Proposals](/bugs/other/dittoeth-redemption-fee-inflation-via-disputed-proposals.md) | Economic Manipulation / Incorrect State Accounting / Peg Stability Failure  | High  | Code4rena |
 | Ekubo | [Oracle Data Corruption via Storage Key Collision in Ekubo Oracle](/bugs/other/ekubo-oracle-storage-key-collision-data-corruption.md) | Storage Collision / Data Corruption / Oracle Integrity Failure  | Medium  | Code4rena |
 | Fractional  | [Delegatecall Reinitialization via Nonce Reset in Vault](/bugs/other/fractional-vault-delegatecall-reinitialization-ownership-takeover.md)  | Delegatecall Storage Corruption / Ownership Takeover / Re-Initialization Attack | Medium  | Code4rena |
 | NftPort | [Signature Bypass via `abi.encodePacked` Hash Collision in Factory](/bugs/other/nftport-abi-encodepacked-hash-collision-signature-bypass-factory.md)  | Authentication Bypass / Hash Collision / Input Encoding | Medium  | Sherlock  |
