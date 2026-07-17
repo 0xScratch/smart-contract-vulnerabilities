@@ -151,6 +151,12 @@ Here are the common steps I took in listing these findings:
 | UXD | [Cross-Chain Channel DoS via Oversized Payload in OFTCore](/bugs/denial-of-service/uxd-oversized-payload-cross-chain-queue-dos-oftcore.md)  | High  | Sherlock  |
 | Winnable Raffles  | [Unbounded `ownerOf()` Lookup Can Permanently DoS Raffle Winner Resolution](/bugs/denial-of-service/winnablesraffles-unbounded-ownerof-lookup-causes-winner-selection-dos.md) | Medium  | Sherlock  |
 
+### Economic Design/Manipulation
+
+|   Protocol    |   Vulnerability   |   Severity    |   Source  |
+|---------------|-------------------|---------------|-----------|
+| Pool Together | [Shared VRGDA Decay Constant Causes Smaller Prize Tier Auctions to Reach Maximum Fees Prematurely](/bugs/economic-design/pooltogether-shared-vrgda-decay-constant-inefficient-tier-auctions.md) | Medium  | Code4rena |
+
 ---
 
 ### External Call
