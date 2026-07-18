@@ -244,6 +244,7 @@ Here are the common steps I took in listing these findings:
 |   Protocol    |   Vulnerability   |   Severity    |   Source  |
 |---------------|-------------------|---------------|-----------|
 | BlueBerry | [Premature Liquidation via Stale Underlying Vault Accounting](/bugs/math-error/blueberry-premature-liquidation-stale-underlying-vault-accounting.md)  | High  | Sherlock  |
+| GoodEntry | [Modified `FullMath` Library Causes Permanent Fund Lock When Price Moves Outside the Liquidity Range](/bugs/math-error/goodentry-fullmath-underflow-funds-lock.md)  | High  | Code4rena |
 |   Isomorph    |   [Bad Debt Persistence via Truncation Mismatch in Isomorph Velo Vault](/bugs/math-error/isomorph-collateral-accounting-inflation-borrow-miscalculation.md)   |   Medium  |   Sherlock Audits |
 | Leveraged Vaults  | [Loss of Rewards via High-Frequency Griefing & Rounding-to-Zero on L2](/bugs/math-error/leveragedvaults-reward-griefing-rounding-to-zero-loss.md) | High  | Sherlock  |
 |   Munchables  |   [Asset Freezing via Flawed Reward Penalty Calculation in LandManager](/bugs/math-error/munchables-asset-freeze-landmanager-integer-underflow.md)    |   High    |   Code4rena   |
