@@ -158,6 +158,7 @@ Here are the common steps I took in listing these findings:
 |---------------|-------------------|---------------|-----------|
 | Ditto Eth | [Redemption Fee Inflation via Disputed Redemption Proposals](/bugs/economic-design/dittoeth-redemption-fee-inflation-via-disputed-proposals.md) | High  | Code4rena |
 | Pool Together | [Shared VRGDA Decay Constant Causes Smaller Prize Tier Auctions to Reach Maximum Fees Prematurely](/bugs/economic-design/pooltogether-shared-vrgda-decay-constant-inefficient-tier-auctions.md) | Medium  | Code4rena |
+| Tapioca | [Hardcoded 2.5% Slippage Allows Repeated Sandwich Attacks to Drain Strategy Value](/bugs/economic-design/tapioca-hardcoded-slippage-allows-repeated-sandwich-value-extraction.md) | Medium  | Code4rena |
 
 ---
 
