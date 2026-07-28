@@ -271,6 +271,7 @@ Here are the common steps I took in listing these findings:
 |   Panoptic    |   [Reentrancy in SemiFungiblePositionManager via ERC777 `tokensToSend` Hook](/bugs/reentrancy/panoptic-sfpm-burn-bypass-liquidity-check.md)   |   High    |   Code4rena   |
 |   ReNFT   |   [Reentrancy via `safeTransferFrom` Callback in PAY Rentals](/bugs/reentrancy/renft-reclaimer-pay-rental-reentrancy.md)  |   Medium  |   Code4rena   |
 |   ReNFT   |   [reNFT — ERC1155 Hijack via Reentrancy / TOCTOU (rentedAssets)](/bugs/reentrancy/renft-storage-erc1155-hijack-reentrancy.md)    |   High    |   Code4rena   |
+| Wise Lending  | [Exploitation of `receive()` Function to Reset Reentrancy Guard and Steal Funds](/bugs/reentrancy/wise-lending-reentrancy-guard-reset-via-receive-bad-debt-reward-exploit.md) | High  | Code4rena |
 
 ---
 
