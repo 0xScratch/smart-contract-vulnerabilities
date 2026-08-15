@@ -92,6 +92,7 @@ Here are the common steps I took in listing these findings:
 | Amphora | [Reorg-Based Vault Address Hijacking via CREATE Deployment in Amphora](/bugs/business-logic-flaw/amphora-reorg-based-vault-address-hijacking-create-deployment.md)  | Medium  | Code4rena |
 |   Arcade  |   [Incorrect `gscAllowance` Accounting & ERC20 Allowance Overwrite Risk in ArcadeTreasury](/bugs/business-logic-flaw/arcade-gscAllowance-erc20-allowance-overwrite.md)    |   Medium  |   Code4rena   |
 |   Badger  |   [Redemption Drains Healthy CDPs → System-Wide Under-Collateralization](/bugs/business-logic-flaw/badger-redemption-healthy-cdp-drain.md)    |   Medium  |   Code4rena   |
+| Battlechain Confidence Pools  | [`withdraw()` Locks Stakers With Zero Bonus When Registry Skips `UNDER_ATTACK`](/bugs/business-logic-flaw/battlechain-confidence-pools-withdraw-locks-stakers-without-risk-materialization.md)  | Medium  | Codehawks |
 |   Canto   |   [Epoch Boundary Reward Inflation via Misaligned `nextEpoch` Calculation in `update_market`](/bugs/business-logic-flaw/canto-epoch-reward-inflation.md)  |   High    |   Code4rena   |
 | Caraspace | [Sybil Withdrawal Requests Enable Leverage Manipulation via Flashloans](/bugs/business-logic-flaw/carapace-Sybil-Withdraw-Leverage-Manipulation.md) | High  | Sherlock  |
 | Ekubo | [TWAMM Instant Orders Can Steal Historical Rewards via Start-Time Boundary Bug](/bugs/business-logic-flaw/ekubo-twamm-instant-order-starttime-reward-inflation.md)  | Medium  | Code4rena |
@@ -127,7 +128,6 @@ Here are the common steps I took in listing these findings:
 |   Autonolas   |   [Global Withdraw DoS via Zero‑Liquidity Position in Liquidity Lockbox](/bugs/denial-of-service/autonolas-liquidity-lockbox-zero-liquidity.md)   |   High    |   Code4rena   |
 |   Axelar  |   [Denial-of-Service via Flow-Limit Exhaustion in Axelar TokenManager](/bugs/denial-of-service/axelar-tokenmanager-flow-limit-exhaustion.md)  |   Medium  |   Code4rena   |
 |   Basin   |   [Cheap DoS via Zero-Fee TWAP Manipulation in Basin](/bugs/denial-of-service/basin-well-zero-fee-slippage.md)    |   Medium  |   Code4rena   |
-| Battlechain Confidence Pools  | [`withdraw()` Locks Stakers With Zero Bonus When Registry Skips `UNDER_ATTACK`](/bugs/business-logic-flaw/battlechain-confidence-pools-withdraw-locks-stakers-without-risk-materialization.md)  | Medium  | Codehawks |
 | Chainlink Payment Abstraction V2 |  [Dust Partial Fills Can Self-Invalidate Remaining CoW Orders Until Workflow Refresh](/bugs/denial-of-service/chainlink-partial-cow-fill-self-invalidates-order-dos.md)  | Medium  | Code4rena |
 | Chainlink Payment Abstraction V2 |  [Stale CRE Report Can Prematurely Terminate a New Auction Instance](/bugs/denial-of-service/chainlink-stale-cre-report-premature-auction-termination.md) | Medium  |  Code4rena |
 |   Delegate    |   [Nonce Desynchronization Leading to Denial of Service in `CreateOfferer.sol`](/bugs/denial-of-service/delegate-createofferer-nonce-desync-dos.md)   |   Medium  |   Code4rena   |
