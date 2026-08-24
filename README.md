@@ -92,6 +92,7 @@ Here are the common steps I took in listing these findings:
 | Amphora | [Reorg-Based Vault Address Hijacking via CREATE Deployment in Amphora](/bugs/business-logic-flaw/amphora-reorg-based-vault-address-hijacking-create-deployment.md)  | Medium  | Code4rena |
 |   Arcade  |   [Incorrect `gscAllowance` Accounting & ERC20 Allowance Overwrite Risk in ArcadeTreasury](/bugs/business-logic-flaw/arcade-gscAllowance-erc20-allowance-overwrite.md)    |   Medium  |   Code4rena   |
 |   Badger  |   [Redemption Drains Healthy CDPs → System-Wide Under-Collateralization](/bugs/business-logic-flaw/badger-redemption-healthy-cdp-drain.md)    |   Medium  |   Code4rena   |
+| Battlechain Confidence Pools | [Sponsor Can Author `CORRUPTED` Verdict and Sweep the Third-Party Pool](/bugs/business-logic-flaw/battlechain-confidence-pools-sponsor-can-author-corrupted-verdict-and-sweep-third-party-pool.md) | Medium  | Codehawks |
 | Battlechain Confidence Pools  | [`withdraw()` Locks Stakers With Zero Bonus When Registry Skips `UNDER_ATTACK`](/bugs/business-logic-flaw/battlechain-confidence-pools-withdraw-locks-stakers-without-risk-materialization.md)  | Medium  | Codehawks |
 |   Canto   |   [Epoch Boundary Reward Inflation via Misaligned `nextEpoch` Calculation in `update_market`](/bugs/business-logic-flaw/canto-epoch-reward-inflation.md)  |   High    |   Code4rena   |
 | Caraspace | [Sybil Withdrawal Requests Enable Leverage Manipulation via Flashloans](/bugs/business-logic-flaw/carapace-Sybil-Withdraw-Leverage-Manipulation.md) | High  | Sherlock  |
